@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo de Sensores</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #1a1a1a; /* Fondo oscuro */
+            color: #e0e0e0; /* Texto claro */
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .chart-container {
+            background-color: #2b2b2b; /* Contenedores de gráfico un poco más claros que el fondo */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada para contraste */
+            width: 45%;
+            min-width: 400px;
+            box-sizing: border-box;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #61dafb; /* Un color de título que contraste bien */
+        }
+        /* ELIMINAMOS ESTILOS DEL BOTÓN YA QUE NO ESTARÁ */
+        /*
+        .reset-button-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .reset-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        .reset-button:hover {
+            background-color: #0056b3;
+        }
+        */
+    </style>
+</head>
+<body>
+    <h1>Datos de Sensores Combinados</h1>
+
+    <div class="container">
+        <div class="chart-container">
+            <h2>Temperaturas</h2>
+            <canvas id="tempChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Humedades</h2>
+            <canvas id="humChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Presiones</h2>
+            <canvas id="presChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Índice de Calidad del Aire (IAQ)</h2>
+            <canvas id="iaqChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Resistencia al Gas</h2>
+            <canvas id="gasChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
