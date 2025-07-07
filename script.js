@@ -34,7 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 const month = dateParts[1];
                 const day = dateParts[2];
                 const time = row[1]; // Assuming row[1] is 'HH:MM:SS' or 'HH:MM'
-                return `${year}-${month}-${day} ${time.substring(0, 5)}`; // Format to YY-MM-DD HH:MM
+                // This line ensures only HH:MM is used, removing seconds if present
+                return `${year}-${month}-${day} ${time.substring(0, 5)}`; 
             });
 
             const temp76Data = data.map(row => parseFloat(row[2]));
