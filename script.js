@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     Chart.register(ChartZoom);
 
-    const charts = []; // Array para almacenar las instancias de los gráficos
+    const charts = []; // Array to store chart instances
 
     async function loadAndDrawCharts() {
         try {
@@ -29,12 +29,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const data = lines.slice(1).map(line => line.split(',').map(cell => cell.trim()));
 
             const labels = data.map(row => {
-                const dateParts = row[0].split('-');
-                const year = dateParts[0].substring(2);
+                const dateParts = row[0].split('-'); // Assuming row[0] is 'YYYY-MM-DD'
+                const year = dateParts[0].substring(2); // Get last two digits of the year
                 const month = dateParts[1];
                 const day = dateParts[2];
-                const time = row[1];
-                return `${year}-${month}-${day} ${time}`;
+                const time = row[1]; // Assuming row[1] is 'HH:MM:SS' or 'HH:MM'
+                return `${year}-${month}-${day} ${time.substring(0, 5)}`; // Format to YY-MM-DD HH:MM
             });
 
             const temp76Data = data.map(row => parseFloat(row[2]));
@@ -59,28 +59,21 @@ document.addEventListener('DOMContentLoaded', function() {
                         },
                         zoom: {
                             pan: {
-                                enabled: true, // Pan habilitado
-                                mode: 'xy',   // Permite arrastrar en ambos ejes
-                                // El modifierKey se omite, ya que funciona sin él
-                                // modifierKey: 'alt', // Puedes descomentar si prefieres tenerlo para el pan
+                                enabled: true,
+                                mode: 'xy',
                             },
                             zoom: {
                                 wheel: {
-                                    enabled: true, // Zoom con rueda habilitado
+                                    enabled: true,
                                 },
                                 pinch: {
-                                    enabled: true // Zoom con pellizco táctil habilitado
+                                    enabled: true
                                 },
                                 drag: { 
-                                    enabled: false, // Arrastre para zoom deshabilitado (ya que prefieres pan directo)
+                                    enabled: false,
                                 },
-                                mode: 'xy', // Permite zoom en ambos ejes (x e y)
-                            },
-                            // *** ELIMINAMOS onDoubleClick DE AQUÍ ***
-                            // onDoubleClick: function({chart}) {
-                            //     console.log('Doble clic detectado en el gráfico, restableciendo zoom.');
-                            //     chart.resetZoom();
-                            // }
+                                mode: 'xy',
+                            }
                         }
                     },
                     scales: {
@@ -117,9 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 };
             }
 
-            // --- Dibujar Gráficos Combinados ---
-            // Los gráficos se crean de la misma manera
-
+            // --- Draw Combined Charts ---
             const tempChart = new Chart(document.getElementById('tempChart'), {
                 type: 'line',
                 data: {
@@ -131,14 +122,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 options: getDarkChartOptions('Temperatura (°C)')
             });
-            charts.push(tempChart); // Asegúrate de agregarlo al array
-
-            // *** Añadir el event listener de doble clic directamente al canvas ***
+            charts.push(tempChart);
             document.getElementById('tempChart').addEventListener('dblclick', function() {
                 console.log('¡Doble clic directo en tempChart detectado! Restableciendo zoom.');
                 tempChart.resetZoom();
             });
-
 
             const humChart = new Chart(document.getElementById('humChart'), {
                 type: 'line',
@@ -156,7 +144,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.log('¡Doble clic directo en humChart detectado! Restableciendo zoom.');
                 humChart.resetZoom();
             });
-
 
             const presChart = new Chart(document.getElementById('presChart'), {
                 type: 'line',
@@ -237,13 +224,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 gasChart.resetZoom();
             });
             
-            // ELIMINAMOS EL EVENT LISTENER DEL BOTÓN
-            // document.getElementById('resetAllCharts').addEventListener('click', function() {
-            //     charts.forEach(chart => {
-            //         chart.resetZoom();
-            //     });
-            // });
-
         } catch (error) {
             console.error('Error al cargar o procesar el CSV:', error);
             document.body.innerHTML = '<h1>Error al cargar los datos. Revisa la consola para más detalles.</h1>';
