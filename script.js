@@ -54,10 +54,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     maintainAspectRatio: false, // Permitir que el gráfico se ajuste libremente al tamaño de su contenedor
                     layout: {
                         padding: {
-                            top: 10,
-                            bottom: 10,
-                            left: 10,
-                            right: 10
+                            top: 5,
+                            bottom: 5,
+                            left: 5,
+                            right: 5
                         }
                     },
                     plugins: {
