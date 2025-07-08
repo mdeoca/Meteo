@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 data: {
                     labels: labels,
                     datasets: [
-                        { label: 'Temperatura Sensor 76 (°C)', data: temp76Data, borderColor: 'rgb(255, 99, 132)', backgroundColor: 'rgba(255, 99, 132, 0.2)', tension: 0.3, fill: false },
+                        { label: 'Temperatura Sensor 76 (°C)', data: temp76Data, borderColor: 'rgb(255, 99, 132)', backgroundColor: 'rgba(255, 99, 132, 0.2)', tension: 0.1, fill: false },
                         { label: 'Temperatura Sensor 77 (°C)', data: temp77Data, borderColor: 'rgb(54, 162, 235)', backgroundColor: 'rgba(54, 162, 235, 0.2)', tension: 0.3, fill: false }
                     ]
                 },
