@@ -51,22 +51,21 @@ document.addEventListener('DOMContentLoaded', function() {
             function getDarkChartOptions(yAxisTitle) {
                 return {
                     responsive: true,
-                    // --- INICIO DE LA MODIFICACIÓN DE ESPACIO ---
+                    maintainAspectRatio: false, // Importante para que el gráfico se ajuste al tamaño del canvas en fullscreen
                     layout: {
                         padding: {
-                            top: 5,    // Reduce top padding slightly if needed (default is often 0 or small)
-                            bottom: 5, // Reduce bottom padding slightly if needed
-                            left: 5,
-                            right: 5
+                            top: 10,
+                            bottom: 10,
+                            left: 10,
+                            right: 10
                         }
                     },
-                    // --- FIN DE LA MODIFICACIÓN DE ESPACIO ---
                     plugins: {
                         legend: {
-                            position: 'top', // Ensures legend is at the top
+                            position: 'top',
                             labels: {
                                 color: textColor,
-                                padding: 8 // Reduced padding between legend items (default is 10)
+                                padding: 8
                             }
                         },
                         zoom: {
@@ -94,7 +93,6 @@ document.addEventListener('DOMContentLoaded', function() {
                                 display: true,
                                 text: 'Fecha y Hora',
                                 color: textColor,
-                                // padding: { top: 4, bottom: 4 } // Uncomment and adjust if you need to fine-tune space around X-axis title
                             },
                             grid: {
                                 color: gridColor
@@ -109,8 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             title: {
                                 display: true,
                                 text: yAxisTitle,
-                                color: textColor,
-                                // padding: { top: 4, bottom: 4 } // Uncomment and adjust if you need to fine-tune space around Y-axis title
+                                color: textColor
                             },
                             grid: {
                                 color: gridColor
@@ -124,8 +121,37 @@ document.addEventListener('DOMContentLoaded', function() {
                 };
             }
 
+            // Función para alternar pantalla completa
+            function toggleFullscreen(chart, canvasElement) {
+                // Si el canvas tiene un contenedor padre (ej. un div), también manejamos ese contenedor
+                const parentContainer = canvasElement.parentElement; 
+                
+                if (chart._isFullscreen) {
+                    // Volver al tamaño original
+                    if (parentContainer) {
+                        parentContainer.classList.remove('chart-container-fullscreen');
+                    }
+                    canvasElement.classList.remove('chart-fullscreen');
+                    chart._isFullscreen = false;
+                    console.log('Saliendo de pantalla completa para:', chart.id);
+                } else {
+                    // Ir a pantalla completa
+                    if (parentContainer) {
+                        parentContainer.classList.add('chart-container-fullscreen');
+                    }
+                    canvasElement.classList.add('chart-fullscreen');
+                    chart._isFullscreen = true;
+                    console.log('Entrando a pantalla completa para:', chart.id);
+                }
+
+                // Importante: Forzar el redibujado para que el gráfico se adapte al nuevo tamaño del canvas
+                chart.resize(); 
+            }
+
+
             // --- Draw Combined Charts ---
-            const tempChart = new Chart(document.getElementById('tempChart'), {
+            const tempChartCanvas = document.getElementById('tempChart');
+            const tempChart = new Chart(tempChartCanvas, {
                 type: 'line',
                 data: {
                     labels: labels,
@@ -137,12 +163,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 options: getDarkChartOptions('Temperatura (°C)')
             });
             charts.push(tempChart);
-            document.getElementById('tempChart').addEventListener('dblclick', function() {
+            tempChart._isFullscreen = false; // Inicializa el estado de pantalla completa
+            tempChartCanvas.addEventListener('dblclick', function() {
                 console.log('¡Doble clic directo en tempChart detectado! Restableciendo zoom.');
                 tempChart.resetZoom();
             });
+            // --- NUEVA FUNCIONALIDAD: Clic con rueda para pantalla completa ---
+            tempChartCanvas.addEventListener('mousedown', function(event) {
+                if (event.button === 1) { // 1 es el botón central (rueda)
+                    event.preventDefault(); // Previene el comportamiento por defecto del clic central (ej. abrir nueva pestaña)
+                    toggleFullscreen(tempChart, tempChartCanvas);
+                }
+            });
 
-            const humChart = new Chart(document.getElementById('humChart'), {
+
+            const humChartCanvas = document.getElementById('humChart');
+            const humChart = new Chart(humChartCanvas, {
                 type: 'line',
                 data: {
                     labels: labels,
@@ -154,12 +190,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 options: getDarkChartOptions('Humedad (%)')
             });
             charts.push(humChart);
-            document.getElementById('humChart').addEventListener('dblclick', function() {
+            humChart._isFullscreen = false;
+            humChartCanvas.addEventListener('dblclick', function() {
                 console.log('¡Doble clic directo en humChart detectado! Restableciendo zoom.');
                 humChart.resetZoom();
             });
+            humChartCanvas.addEventListener('mousedown', function(event) {
+                if (event.button === 1) {
+                    event.preventDefault();
+                    toggleFullscreen(humChart, humChartCanvas);
+                }
+            });
 
-            const presChart = new Chart(document.getElementById('presChart'), {
+
+            const presChartCanvas = document.getElementById('presChart');
+            const presChart = new Chart(presChartCanvas, {
                 type: 'line',
                 data: {
                     labels: labels,
@@ -171,12 +216,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 options: getDarkChartOptions('Presión (hPa)')
             });
             charts.push(presChart);
-            document.getElementById('presChart').addEventListener('dblclick', function() {
+            presChart._isFullscreen = false;
+            presChartCanvas.addEventListener('dblclick', function() {
                 console.log('¡Doble clic directo en presChart detectado! Restableciendo zoom.');
                 presChart.resetZoom();
             });
+            presChartCanvas.addEventListener('mousedown', function(event) {
+                if (event.button === 1) {
+                    event.preventDefault();
+                    toggleFullscreen(presChart, presChartCanvas);
+                }
+            });
             
-            const iaqChart = new Chart(document.getElementById('iaqChart'), {
+            const iaqChartCanvas = document.getElementById('iaqChart');
+            const iaqChart = new Chart(iaqChartCanvas, {
                 type: 'line',
                 data: {
                     labels: labels,
@@ -202,12 +255,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 options: getDarkChartOptions('IAQ')
             });
             charts.push(iaqChart);
-            document.getElementById('iaqChart').addEventListener('dblclick', function() {
+            iaqChart._isFullscreen = false;
+            iaqChartCanvas.addEventListener('dblclick', function() {
                 console.log('¡Doble clic directo en iaqChart detectado! Restableciendo zoom.');
                 iaqChart.resetZoom();
             });
+            iaqChartCanvas.addEventListener('mousedown', function(event) {
+                if (event.button === 1) {
+                    event.preventDefault();
+                    toggleFullscreen(iaqChart, iaqChartCanvas);
+                }
+            });
 
-            const gasChart = new Chart(document.getElementById('gasChart'), {
+            const gasChartCanvas = document.getElementById('gasChart');
+            const gasChart = new Chart(gasChartCanvas, {
                 type: 'line',
                 data: {
                     labels: labels,
@@ -233,9 +294,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 options: getDarkChartOptions('Resistencia al Gas (Ohmios)')
             });
             charts.push(gasChart);
-            document.getElementById('gasChart').addEventListener('dblclick', function() {
+            gasChart._isFullscreen = false;
+            gasChartCanvas.addEventListener('dblclick', function() {
                 console.log('¡Doble clic directo en gasChart detectado! Restableciendo zoom.');
                 gasChart.resetZoom();
+            });
+            gasChartCanvas.addEventListener('mousedown', function(event) {
+                if (event.button === 1) {
+                    event.preventDefault();
+                    toggleFullscreen(gasChart, gasChartCanvas);
+                }
             });
             
         } catch (error) {
