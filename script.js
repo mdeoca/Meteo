@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             label: 'IAQ Sensor 76',
                             data: iaq76Data,
                             borderColor: iaq76Color,
-                            backgroundColor: iaq76Color.replace('rgb', 'rgba').replace(')', ', 0.2)'),
+                            backgroundColor: iaq76Color.replace('rgb', 'rgba').replace(')', ', 0.1)'),
                             tension: 0.3,
                             fill: false
                         },
