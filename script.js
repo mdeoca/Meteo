@@ -34,8 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const month = dateParts[1];
                 const day = dateParts[2];
                 const time = row[1]; // Assuming row[1] is 'HH:MM:SS' or 'HH:MM'
-                // This line ensures only HH:MM is used, removing seconds if present
-                return `${year}-${month}-${day} ${time.substring(0, 5)}`; 
+                return `${year}-${month}-${day} ${time.substring(0, 5)}`; // Format to YY-MM-DD HH:MM
             });
 
             const temp76Data = data.map(row => parseFloat(row[2]));
@@ -54,6 +53,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     responsive: true,
                     plugins: {
                         legend: {
+                            // --- INICIO DE LA MODIFICACIÓN ---
+                            position: 'top', // Mueve la leyenda a la parte superior del gráfico
+                            // --- FIN DE LA MODIFICACIÓN ---
                             labels: {
                                 color: textColor
                             }
@@ -117,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 data: {
                     labels: labels,
                     datasets: [
-                        { label: 'Temperatura Sensor 76 (°C)', data: temp76Data, borderColor: 'rgb(255, 99, 132)', backgroundColor: 'rgba(255, 99, 132, 0.2)', tension: 0.1, fill: false },
+                        { label: 'Temperatura Sensor 76 (°C)', data: temp76Data, borderColor: 'rgb(255, 99, 132)', backgroundColor: 'rgba(255, 99, 132, 0.2)', tension: 0.3, fill: false },
                         { label: 'Temperatura Sensor 77 (°C)', data: temp77Data, borderColor: 'rgb(54, 162, 235)', backgroundColor: 'rgba(54, 162, 235, 0.2)', tension: 0.3, fill: false }
                     ]
                 },
