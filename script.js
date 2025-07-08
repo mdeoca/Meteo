@@ -54,10 +54,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     // --- INICIO DE LA MODIFICACIÓN DE ESPACIO ---
                     layout: {
                         padding: {
-                            top: 10,    // Reduce top padding slightly if needed (default is often 0 or small)
-                            bottom: 10, // Reduce bottom padding slightly if needed
-                            left: 10,
-                            right: 10
+                            top: 5,    // Reduce top padding slightly if needed (default is often 0 or small)
+                            bottom: 5, // Reduce bottom padding slightly if needed
+                            left: 5,
+                            right: 5
                         }
                     },
                     // --- FIN DE LA MODIFICACIÓN DE ESPACIO ---
