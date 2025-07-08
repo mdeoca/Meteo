@@ -69,8 +69,8 @@
             border-radius: 8px; /* Bordes redondeados para el canvas */
         }
 
-        /* Clase para el modo pantalla completa (aplicada al .chart-wrapper) */
-        .chart-fullscreen-active {
+        /* Clase para el modo pantalla completa (APLICADA AL .chart-container) */
+        .chart-container.chart-fullscreen-active { /* ¡Importante cambio aquí! */
             position: fixed; /* Fija el elemento en la ventana del navegador */
             top: 0;
             left: 0;
@@ -82,10 +82,17 @@
             padding: 20px; /* Padding para el gráfico en fullscreen */
             box-sizing: border-box; /* Incluye padding en el cálculo del tamaño */
             display: flex; /* Para centrar el canvas dentro */
+            flex-direction: column; /* Mantiene la dirección de columna para el h2 y el wrapper */
             align-items: center;
-            justify-content: center;
+            justify-content: center; /* Centra el contenido verticalmente */
             border-radius: 0; /* Sin bordes redondeados en fullscreen */
             box-shadow: none; /* Sin sombra en fullscreen */
+        }
+
+        /* Cuando el contenedor está en pantalla completa, su wrapper interno debe ocupar todo el espacio */
+        .chart-container.chart-fullscreen-active .chart-wrapper {
+            width: 100%;
+            height: 100%; /* Hace que el wrapper llene el contenedor en fullscreen */
         }
 
         /* Oculta el título del contenedor cuando el gráfico está en pantalla completa */
