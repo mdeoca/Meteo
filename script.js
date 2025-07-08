@@ -51,13 +51,22 @@ document.addEventListener('DOMContentLoaded', function() {
             function getDarkChartOptions(yAxisTitle) {
                 return {
                     responsive: true,
+                    // --- INICIO DE LA MODIFICACIÓN DE ESPACIO ---
+                    layout: {
+                        padding: {
+                            top: 10,    // Reduce top padding slightly if needed (default is often 0 or small)
+                            bottom: 10, // Reduce bottom padding slightly if needed
+                            left: 10,
+                            right: 10
+                        }
+                    },
+                    // --- FIN DE LA MODIFICACIÓN DE ESPACIO ---
                     plugins: {
                         legend: {
-                            // --- INICIO DE LA MODIFICACIÓN ---
-                            position: 'top', // Mueve la leyenda a la parte superior del gráfico
-                            // --- FIN DE LA MODIFICACIÓN ---
+                            position: 'top', // Ensures legend is at the top
                             labels: {
-                                color: textColor
+                                color: textColor,
+                                padding: 8 // Reduced padding between legend items (default is 10)
                             }
                         },
                         zoom: {
@@ -84,7 +93,8 @@ document.addEventListener('DOMContentLoaded', function() {
                             title: {
                                 display: true,
                                 text: 'Fecha y Hora',
-                                color: textColor
+                                color: textColor,
+                                // padding: { top: 4, bottom: 4 } // Uncomment and adjust if you need to fine-tune space around X-axis title
                             },
                             grid: {
                                 color: gridColor
@@ -99,7 +109,8 @@ document.addEventListener('DOMContentLoaded', function() {
                             title: {
                                 display: true,
                                 text: yAxisTitle,
-                                color: textColor
+                                color: textColor,
+                                // padding: { top: 4, bottom: 4 } // Uncomment and adjust if you need to fine-tune space around Y-axis title
                             },
                             grid: {
                                 color: gridColor
