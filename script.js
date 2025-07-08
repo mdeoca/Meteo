@@ -29,12 +29,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const data = lines.slice(1).map(line => line.split(',').map(cell => cell.trim()));
 
             const labels = data.map(row => {
-                const dateParts = row[0].split('-'); // Assuming row[0] is 'YYYY-MM-DD'
-                const year = dateParts[0].substring(2); // Get last two digits of the year
+                const dateParts = row[0].split('-'); 
+                const year = dateParts[0].substring(2); 
                 const month = dateParts[1];
                 const day = dateParts[2];
-                const time = row[1]; // Assuming row[1] is 'HH:MM:SS' or 'HH:MM'
-                return `${year}-${month}-${day} ${time.substring(0, 5)}`; // Format to YY-MM-DD HH:MM
+                const time = row[1]; 
+                return `${year}-${month}-${day} ${time.substring(0, 5)}`; 
             });
 
             const temp76Data = data.map(row => parseFloat(row[2]));
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
             function getDarkChartOptions(yAxisTitle) {
                 return {
                     responsive: true,
-                    maintainAspectRatio: false, // Importante para que el gráfico se ajuste al tamaño del canvas en fullscreen
+                    maintainAspectRatio: false, // Permitir que el gráfico se ajuste libremente al tamaño de su contenedor
                     layout: {
                         padding: {
                             top: 10,
@@ -123,188 +123,67 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Función para alternar pantalla completa
             function toggleFullscreen(chart, canvasElement) {
-                // Si el canvas tiene un contenedor padre (ej. un div), también manejamos ese contenedor
-                const parentContainer = canvasElement.parentElement; 
+                const wrapperElement = canvasElement.parentElement; // El div contenedor del canvas
                 
                 if (chart._isFullscreen) {
                     // Volver al tamaño original
-                    if (parentContainer) {
-                        parentContainer.classList.remove('chart-container-fullscreen');
-                    }
-                    canvasElement.classList.remove('chart-fullscreen');
+                    wrapperElement.classList.remove('chart-fullscreen-active');
                     chart._isFullscreen = false;
                     console.log('Saliendo de pantalla completa para:', chart.id);
                 } else {
                     // Ir a pantalla completa
-                    if (parentContainer) {
-                        parentContainer.classList.add('chart-container-fullscreen');
-                    }
-                    canvasElement.classList.add('chart-fullscreen');
+                    wrapperElement.classList.add('chart-fullscreen-active');
                     chart._isFullscreen = true;
                     console.log('Entrando a pantalla completa para:', chart.id);
                 }
 
-                // Importante: Forzar el redibujado para que el gráfico se adapte al nuevo tamaño del canvas
-                chart.resize(); 
+                // Es importante esperar un pequeño momento para que el DOM se actualice
+                // con las nuevas clases CSS antes de redibujar.
+                // Esto es clave para evitar la expansión continua.
+                setTimeout(() => {
+                    chart.resize(); 
+                }, 50); // Un pequeño retardo (ej. 50ms)
             }
 
 
-            // --- Draw Combined Charts ---
-            const tempChartCanvas = document.getElementById('tempChart');
-            const tempChart = new Chart(tempChartCanvas, {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [
-                        { label: 'Temperatura Sensor 76 (°C)', data: temp76Data, borderColor: 'rgb(255, 99, 132)', backgroundColor: 'rgba(255, 99, 132, 0.2)', tension: 0.3, fill: false },
-                        { label: 'Temperatura Sensor 77 (°C)', data: temp77Data, borderColor: 'rgb(54, 162, 235)', backgroundColor: 'rgba(54, 162, 235, 0.2)', tension: 0.3, fill: false }
-                    ]
-                },
-                options: getDarkChartOptions('Temperatura (°C)')
-            });
-            charts.push(tempChart);
-            tempChart._isFullscreen = false; // Inicializa el estado de pantalla completa
-            tempChartCanvas.addEventListener('dblclick', function() {
-                console.log('¡Doble clic directo en tempChart detectado! Restableciendo zoom.');
-                tempChart.resetZoom();
-            });
-            // --- NUEVA FUNCIONALIDAD: Clic con rueda para pantalla completa ---
-            tempChartCanvas.addEventListener('mousedown', function(event) {
-                if (event.button === 1) { // 1 es el botón central (rueda)
-                    event.preventDefault(); // Previene el comportamiento por defecto del clic central (ej. abrir nueva pestaña)
-                    toggleFullscreen(tempChart, tempChartCanvas);
-                }
-            });
+            // --- Helper para crear y configurar gráficos ---
+            function createChart(canvasId, dataset1, dataset2, yAxisTitle, label1, label2, color1, color2) {
+                const canvasElement = document.getElementById(canvasId);
+                const chartInstance = new Chart(canvasElement, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [
+                            { label: label1, data: dataset1, borderColor: color1, backgroundColor: color1.replace('rgb', 'rgba').replace(')', ', 0.2)'), tension: 0.3, fill: false },
+                            { label: label2, data: dataset2, borderColor: color2, backgroundColor: color2.replace('rgb', 'rgba').replace(')', ', 0.2)'), tension: 0.3, fill: false }
+                        ]
+                    },
+                    options: getDarkChartOptions(yAxisTitle)
+                });
+                chartInstance._isFullscreen = false; // Inicializa el estado de pantalla completa
 
+                // Doble clic para resetear zoom
+                canvasElement.addEventListener('dblclick', function() {
+                    console.log(`Doble clic detectado en ${canvasId}! Restableciendo zoom.`);
+                    chartInstance.resetZoom();
+                });
 
-            const humChartCanvas = document.getElementById('humChart');
-            const humChart = new Chart(humChartCanvas, {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [
-                        { label: 'Humedad Sensor 76 (%)', data: hum76Data, borderColor: 'rgb(75, 192, 192)', backgroundColor: 'rgba(75, 192, 192, 0.2)', tension: 0.3, fill: false },
-                        { label: 'Humedad Sensor 77 (%)', data: hum77Data, borderColor: 'rgb(153, 102, 255)', backgroundColor: 'rgba(153, 102, 255, 0.2)', tension: 0.3, fill: false }
-                    ]
-                },
-                options: getDarkChartOptions('Humedad (%)')
-            });
-            charts.push(humChart);
-            humChart._isFullscreen = false;
-            humChartCanvas.addEventListener('dblclick', function() {
-                console.log('¡Doble clic directo en humChart detectado! Restableciendo zoom.');
-                humChart.resetZoom();
-            });
-            humChartCanvas.addEventListener('mousedown', function(event) {
-                if (event.button === 1) {
-                    event.preventDefault();
-                    toggleFullscreen(humChart, humChartCanvas);
-                }
-            });
+                // Clic con rueda para pantalla completa
+                canvasElement.addEventListener('mousedown', function(event) {
+                    if (event.button === 1) { // 1 es el botón central (rueda)
+                        event.preventDefault(); 
+                        toggleFullscreen(chartInstance, canvasElement);
+                    }
+                });
+                return chartInstance;
+            }
 
-
-            const presChartCanvas = document.getElementById('presChart');
-            const presChart = new Chart(presChartCanvas, {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [
-                        { label: 'Presión Sensor 76 (hPa)', data: pres76Data, borderColor: 'rgb(255, 159, 64)', backgroundColor: 'rgba(255, 159, 64, 0.2)', tension: 0.3, fill: false },
-                        { label: 'Presión Sensor 77 (hPa)', data: pres77Data, borderColor: 'rgb(201, 203, 207)', backgroundColor: 'rgba(201, 203, 207, 0.2)', tension: 0.3, fill: false }
-                    ]
-                },
-                options: getDarkChartOptions('Presión (hPa)')
-            });
-            charts.push(presChart);
-            presChart._isFullscreen = false;
-            presChartCanvas.addEventListener('dblclick', function() {
-                console.log('¡Doble clic directo en presChart detectado! Restableciendo zoom.');
-                presChart.resetZoom();
-            });
-            presChartCanvas.addEventListener('mousedown', function(event) {
-                if (event.button === 1) {
-                    event.preventDefault();
-                    toggleFullscreen(presChart, presChartCanvas);
-                }
-            });
-            
-            const iaqChartCanvas = document.getElementById('iaqChart');
-            const iaqChart = new Chart(iaqChartCanvas, {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [
-                        {
-                            label: 'IAQ Sensor 76',
-                            data: iaq76Data,
-                            borderColor: iaq76Color,
-                            backgroundColor: iaq76Color.replace('rgb', 'rgba').replace(')', ', 0.2)'),
-                            tension: 0.3,
-                            fill: false
-                        },
-                        {
-                            label: 'IAQ Sensor 77',
-                            data: iaq77Data,
-                            borderColor: iaq77Color,
-                            backgroundColor: iaq77Color.replace('rgb', 'rgba').replace(')', ', 0.2)'),
-                            tension: 0.3,
-                            fill: false
-                        }
-                    ]
-                },
-                options: getDarkChartOptions('IAQ')
-            });
-            charts.push(iaqChart);
-            iaqChart._isFullscreen = false;
-            iaqChartCanvas.addEventListener('dblclick', function() {
-                console.log('¡Doble clic directo en iaqChart detectado! Restableciendo zoom.');
-                iaqChart.resetZoom();
-            });
-            iaqChartCanvas.addEventListener('mousedown', function(event) {
-                if (event.button === 1) {
-                    event.preventDefault();
-                    toggleFullscreen(iaqChart, iaqChartCanvas);
-                }
-            });
-
-            const gasChartCanvas = document.getElementById('gasChart');
-            const gasChart = new Chart(gasChartCanvas, {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [
-                        {
-                            label: 'Gas Sensor 76 (Ohmios)',
-                            data: gas76Data,
-                            borderColor: gas76Color,
-                            backgroundColor: gas76Color.replace('rgb', 'rgba').replace(')', ', 0.2)'),
-                            tension: 0.3,
-                            fill: false
-                        },
-                        {
-                            label: 'Gas Sensor 77 (Ohmios)',
-                            data: gas77Data,
-                            borderColor: gas77Color,
-                            backgroundColor: gas77Color.replace('rgb', 'rgba').replace(')', ', 0.2)'),
-                            tension: 0.3,
-                            fill: false
-                        }
-                    ]
-                },
-                options: getDarkChartOptions('Resistencia al Gas (Ohmios)')
-            });
-            charts.push(gasChart);
-            gasChart._isFullscreen = false;
-            gasChartCanvas.addEventListener('dblclick', function() {
-                console.log('¡Doble clic directo en gasChart detectado! Restableciendo zoom.');
-                gasChart.resetZoom();
-            });
-            gasChartCanvas.addEventListener('mousedown', function(event) {
-                if (event.button === 1) {
-                    event.preventDefault();
-                    toggleFullscreen(gasChart, gasChartCanvas);
-                }
-            });
+            // --- Creación de todos los gráficos usando la función helper ---
+            charts.push(createChart('tempChart', temp76Data, temp77Data, 'Temperatura (°C)', 'Temperatura Sensor 76 (°C)', 'Temperatura Sensor 77 (°C)', 'rgb(255, 99, 132)', 'rgb(54, 162, 235)'));
+            charts.push(createChart('humChart', hum76Data, hum77Data, 'Humedad (%)', 'Humedad Sensor 76 (%)', 'Humedad Sensor 77 (%)', 'rgb(75, 192, 192)', 'rgb(153, 102, 255)'));
+            charts.push(createChart('presChart', pres76Data, pres77Data, 'Presión (hPa)', 'Presión Sensor 76 (hPa)', 'Presión Sensor 77 (hPa)', 'rgb(255, 159, 64)', 'rgb(201, 203, 207)'));
+            charts.push(createChart('iaqChart', iaq76Data, iaq77Data, 'IAQ', 'IAQ Sensor 76', 'IAQ Sensor 77', iaq76Color, iaq77Color));
+            charts.push(createChart('gasChart', gas76Data, gas77Data, 'Resistencia al Gas (Ohmios)', 'Gas Sensor 76 (Ohmios)', 'Gas Sensor 77 (Ohmios)', gas76Color, gas77Color));
             
         } catch (error) {
             console.error('Error al cargar o procesar el CSV:', error);
