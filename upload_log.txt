@@ -2310,3 +2310,11 @@ ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
 [2025-07-13 07:20:08] === Inicio del proceso ===
 [2025-07-13 07:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
 [2025-07-13 07:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 07:40:08] === Inicio del proceso ===
+[2025-07-13 07:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 07:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 08:00:06] === Inicio del proceso ===
+[2025-07-13 08:00:06] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 08:20:08] === Inicio del proceso ===
+[2025-07-13 08:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 08:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.

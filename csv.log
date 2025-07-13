@@ -2938,3 +2938,19 @@ error: por favor realiza un commit o un stash con ellos.
 [2025-07-13 07:20:08] === Inicio del proceso ===
 [2025-07-13 07:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
 [2025-07-13 07:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main e9b071c] Actualización: 2025-07-13 07:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 07:40:08] === Inicio del proceso ===
+[2025-07-13 07:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 07:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 08:00:06] === Inicio del proceso ===
+[2025-07-13 08:00:06] El archivo no tiene cambios reales. Saliendo.
+[main a64db65] Actualización: 2025-07-13 08:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 08:20:08] === Inicio del proceso ===
+[2025-07-13 08:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 08:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
