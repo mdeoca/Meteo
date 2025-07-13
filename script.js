@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const csvFilePath = '/home/mdeoca/TEMPE/bme688/Meteo/datos.csv';
+    const csvFilePath = 'datos.csv';
 
     const textColor = 'rgba(224, 224, 224, 0.9)';
     const gridColor = 'rgba(128, 128, 128, 0.3)';
