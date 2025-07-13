@@ -2926,3 +2926,15 @@ To https://github.com/mdeoca/Meteo.git
 [2025-07-13 06:40:12] === Actualización completada con éxito ===
 [2025-07-13 07:00:16] === Inicio del proceso ===
 [2025-07-13 07:00:16] El archivo no tiene cambios reales. Saliendo.
+[main 4a01034] Actualización: 2025-07-13 07:20:08
+ 6 files changed, 5468 insertions(+), 99 deletions(-)
+ create mode 100644 csv.log
+ create mode 100755 csv.py
+ mode change 100755 => 100644 index.html
+ mode change 100755 => 100644 script.js
+ create mode 100644 upload_log.txt
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 07:20:08] === Inicio del proceso ===
+[2025-07-13 07:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 07:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
