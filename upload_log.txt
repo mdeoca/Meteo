@@ -2331,3 +2331,445 @@ ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
 [2025-07-13 09:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
 [2025-07-13 10:00:05] === Inicio del proceso ===
 [2025-07-13 10:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 10:20:08] === Inicio del proceso ===
+[2025-07-13 10:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 10:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 10:40:07] === Inicio del proceso ===
+[2025-07-13 10:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 10:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 11:00:07] === Inicio del proceso ===
+[2025-07-13 11:00:07] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 11:20:08] === Inicio del proceso ===
+[2025-07-13 11:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 11:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 11:40:07] === Inicio del proceso ===
+[2025-07-13 11:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 11:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 12:00:05] === Inicio del proceso ===
+[2025-07-13 12:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 12:20:45] === Inicio del proceso ===
+[2025-07-13 12:20:45] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 12:20:45] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 12:40:07] === Inicio del proceso ===
+[2025-07-13 12:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 12:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 13:00:05] === Inicio del proceso ===
+[2025-07-13 13:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 13:20:07] === Inicio del proceso ===
+[2025-07-13 13:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 13:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 13:40:07] === Inicio del proceso ===
+[2025-07-13 13:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 13:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 14:00:08] === Inicio del proceso ===
+[2025-07-13 14:00:08] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 14:20:07] === Inicio del proceso ===
+[2025-07-13 14:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 14:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 14:40:07] === Inicio del proceso ===
+[2025-07-13 14:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 14:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 15:00:05] === Inicio del proceso ===
+[2025-07-13 15:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 15:20:07] === Inicio del proceso ===
+[2025-07-13 15:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 15:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 15:40:07] === Inicio del proceso ===
+[2025-07-13 15:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 15:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 16:00:43] === Inicio del proceso ===
+[2025-07-13 16:00:43] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 16:20:07] === Inicio del proceso ===
+[2025-07-13 16:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 16:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 16:40:07] === Inicio del proceso ===
+[2025-07-13 16:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 16:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 17:00:05] === Inicio del proceso ===
+[2025-07-13 17:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 17:20:08] === Inicio del proceso ===
+[2025-07-13 17:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 17:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 17:40:07] === Inicio del proceso ===
+[2025-07-13 17:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 17:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 18:00:05] === Inicio del proceso ===
+[2025-07-13 18:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 18:20:12] === Inicio del proceso ===
+[2025-07-13 18:20:12] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 18:20:13] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 18:40:07] === Inicio del proceso ===
+[2025-07-13 18:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 18:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 19:00:04] === Inicio del proceso ===
+[2025-07-13 19:00:04] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 19:20:09] === Inicio del proceso ===
+[2025-07-13 19:20:09] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 19:20:10] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 19:40:08] === Inicio del proceso ===
+[2025-07-13 19:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 19:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 20:00:05] === Inicio del proceso ===
+[2025-07-13 20:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 20:20:08] === Inicio del proceso ===
+[2025-07-13 20:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 20:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 20:40:07] === Inicio del proceso ===
+[2025-07-13 20:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 20:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 21:00:27] === Inicio del proceso ===
+[2025-07-13 21:00:27] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 21:20:07] === Inicio del proceso ===
+[2025-07-13 21:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 21:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 21:40:08] === Inicio del proceso ===
+[2025-07-13 21:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 21:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 22:00:05] === Inicio del proceso ===
+[2025-07-13 22:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 22:20:07] === Inicio del proceso ===
+[2025-07-13 22:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 22:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 22:40:47] === Inicio del proceso ===
+[2025-07-13 22:40:47] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 22:40:47] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 23:00:41] === Inicio del proceso ===
+[2025-07-13 23:00:41] El archivo no tiene cambios reales. Saliendo.
+[2025-07-13 23:20:07] === Inicio del proceso ===
+[2025-07-13 23:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 23:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 23:40:08] === Inicio del proceso ===
+[2025-07-13 23:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 23:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 00:01:38] === Inicio del proceso ===
+[2025-07-14 00:01:38] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 00:20:42] === Inicio del proceso ===
+[2025-07-14 00:20:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 00:20:42] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 00:40:07] === Inicio del proceso ===
+[2025-07-14 00:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 00:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 01:00:41] === Inicio del proceso ===
+[2025-07-14 01:00:41] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 01:20:26] === Inicio del proceso ===
+[2025-07-14 01:20:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 01:20:26] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 01:40:42] === Inicio del proceso ===
+[2025-07-14 01:40:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 01:40:42] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 02:00:05] === Inicio del proceso ===
+[2025-07-14 02:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 02:20:07] === Inicio del proceso ===
+[2025-07-14 02:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 02:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 02:40:07] === Inicio del proceso ===
+[2025-07-14 02:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 02:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 03:00:08] === Inicio del proceso ===
+[2025-07-14 03:00:08] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 03:20:07] === Inicio del proceso ===
+[2025-07-14 03:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 03:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 03:40:25] === Inicio del proceso ===
+[2025-07-14 03:40:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 03:40:25] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 04:00:45] === Inicio del proceso ===
+[2025-07-14 04:00:45] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 04:21:01] === Inicio del proceso ===
+[2025-07-14 04:21:01] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 04:21:01] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 04:40:07] === Inicio del proceso ===
+[2025-07-14 04:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 04:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 05:00:41] === Inicio del proceso ===
+[2025-07-14 05:00:41] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 05:20:07] === Inicio del proceso ===
+[2025-07-14 05:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 05:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 05:40:06] === Inicio del proceso ===
+[2025-07-14 05:40:06] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 05:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 06:00:41] === Inicio del proceso ===
+[2025-07-14 06:00:41] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 06:20:25] === Inicio del proceso ===
+[2025-07-14 06:20:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 06:20:25] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 06:40:42] === Inicio del proceso ===
+[2025-07-14 06:40:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 06:40:43] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 07:00:05] === Inicio del proceso ===
+[2025-07-14 07:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 07:20:07] === Inicio del proceso ===
+[2025-07-14 07:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 07:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 07:40:58] === Inicio del proceso ===
+[2025-07-14 07:40:59] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 07:40:59] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 08:00:30] === Inicio del proceso ===
+[2025-07-14 08:00:30] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 08:20:07] === Inicio del proceso ===
+[2025-07-14 08:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 08:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 08:40:07] === Inicio del proceso ===
+[2025-07-14 08:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 08:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 09:00:41] === Inicio del proceso ===
+[2025-07-14 09:00:41] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 09:20:09] === Inicio del proceso ===
+[2025-07-14 09:20:09] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 09:20:09] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 09:40:08] === Inicio del proceso ===
+[2025-07-14 09:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 09:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 10:00:07] === Inicio del proceso ===
+[2025-07-14 10:00:07] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 10:20:08] === Inicio del proceso ===
+[2025-07-14 10:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 10:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 10:40:08] === Inicio del proceso ===
+[2025-07-14 10:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 10:40:09] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 11:00:08] === Inicio del proceso ===
+[2025-07-14 11:00:08] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 11:20:08] === Inicio del proceso ===
+[2025-07-14 11:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 11:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 11:40:08] === Inicio del proceso ===
+[2025-07-14 11:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 11:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 12:00:09] === Inicio del proceso ===
+[2025-07-14 12:00:09] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 12:20:07] === Inicio del proceso ===
+[2025-07-14 12:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 12:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 12:40:07] === Inicio del proceso ===
+[2025-07-14 12:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 12:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 13:00:25] === Inicio del proceso ===
+[2025-07-14 13:00:25] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 13:20:26] === Inicio del proceso ===
+[2025-07-14 13:20:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 13:20:26] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 13:40:07] === Inicio del proceso ===
+[2025-07-14 13:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 13:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 14:00:41] === Inicio del proceso ===
+[2025-07-14 14:00:41] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 14:20:07] === Inicio del proceso ===
+[2025-07-14 14:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 14:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 14:40:08] === Inicio del proceso ===
+[2025-07-14 14:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 14:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 15:00:41] === Inicio del proceso ===
+[2025-07-14 15:00:41] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 15:20:08] === Inicio del proceso ===
+[2025-07-14 15:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 15:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 15:40:07] === Inicio del proceso ===
+[2025-07-14 15:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 15:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 16:00:05] === Inicio del proceso ===
+[2025-07-14 16:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 16:20:07] === Inicio del proceso ===
+[2025-07-14 16:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 16:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 16:40:46] === Inicio del proceso ===
+[2025-07-14 16:40:46] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 16:40:47] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 17:00:58] === Inicio del proceso ===
+[2025-07-14 17:00:58] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 17:20:07] === Inicio del proceso ===
+[2025-07-14 17:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 17:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 17:40:08] === Inicio del proceso ===
+[2025-07-14 17:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 17:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 18:00:59] === Inicio del proceso ===
+[2025-07-14 18:00:59] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 18:20:09] === Inicio del proceso ===
+[2025-07-14 18:20:09] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 18:20:09] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 18:40:07] === Inicio del proceso ===
+[2025-07-14 18:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 18:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 19:00:57] === Inicio del proceso ===
+[2025-07-14 19:00:57] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 19:20:07] === Inicio del proceso ===
+[2025-07-14 19:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 19:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 19:40:25] === Inicio del proceso ===
+[2025-07-14 19:40:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 19:40:25] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 20:00:05] === Inicio del proceso ===
+[2025-07-14 20:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 20:20:41] === Inicio del proceso ===
+[2025-07-14 20:20:41] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 20:20:42] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 20:40:50] === Inicio del proceso ===
+[2025-07-14 20:40:50] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 20:40:51] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 21:00:41] === Inicio del proceso ===
+[2025-07-14 21:00:41] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 21:21:02] === Inicio del proceso ===
+[2025-07-14 21:21:02] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 21:21:02] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 21:40:58] === Inicio del proceso ===
+[2025-07-14 21:40:58] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 21:40:58] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 22:00:08] === Inicio del proceso ===
+[2025-07-14 22:00:08] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 22:20:46] === Inicio del proceso ===
+[2025-07-14 22:20:46] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 22:20:46] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 22:40:57] === Inicio del proceso ===
+[2025-07-14 22:40:57] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 22:40:57] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 23:00:42] === Inicio del proceso ===
+[2025-07-14 23:00:42] El archivo no tiene cambios reales. Saliendo.
+[2025-07-14 23:20:42] === Inicio del proceso ===
+[2025-07-14 23:20:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 23:20:42] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 23:40:40] === Inicio del proceso ===
+[2025-07-14 23:40:40] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 23:40:40] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 00:00:10] === Inicio del proceso ===
+[2025-07-15 00:00:10] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 00:20:08] === Inicio del proceso ===
+[2025-07-15 00:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 00:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 00:40:41] === Inicio del proceso ===
+[2025-07-15 00:40:41] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 00:40:41] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 01:00:05] === Inicio del proceso ===
+[2025-07-15 01:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 01:20:07] === Inicio del proceso ===
+[2025-07-15 01:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 01:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 01:40:07] === Inicio del proceso ===
+[2025-07-15 01:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 01:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 02:00:38] === Inicio del proceso ===
+[2025-07-15 02:00:38] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 02:20:24] === Inicio del proceso ===
+[2025-07-15 02:20:24] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 02:20:24] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 02:40:25] === Inicio del proceso ===
+[2025-07-15 02:40:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 02:40:25] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 03:00:56] === Inicio del proceso ===
+[2025-07-15 03:00:56] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 03:20:58] === Inicio del proceso ===
+[2025-07-15 03:20:58] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 03:20:58] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 03:40:08] === Inicio del proceso ===
+[2025-07-15 03:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 03:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 04:00:38] === Inicio del proceso ===
+[2025-07-15 04:00:38] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 04:20:58] === Inicio del proceso ===
+[2025-07-15 04:20:58] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 04:20:58] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 04:40:25] === Inicio del proceso ===
+[2025-07-15 04:40:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 04:40:25] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 05:00:05] === Inicio del proceso ===
+[2025-07-15 05:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 05:20:07] === Inicio del proceso ===
+[2025-07-15 05:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 05:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 05:40:06] === Inicio del proceso ===
+[2025-07-15 05:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 05:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 06:00:42] === Inicio del proceso ===
+[2025-07-15 06:00:42] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 06:20:57] === Inicio del proceso ===
+[2025-07-15 06:20:57] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 06:20:57] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 06:40:47] === Inicio del proceso ===
+[2025-07-15 06:40:47] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 06:40:47] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 07:00:43] === Inicio del proceso ===
+[2025-07-15 07:00:43] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 07:20:07] === Inicio del proceso ===
+[2025-07-15 07:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 07:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 07:40:24] === Inicio del proceso ===
+[2025-07-15 07:40:24] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 07:40:24] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 08:00:05] === Inicio del proceso ===
+[2025-07-15 08:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 08:20:08] === Inicio del proceso ===
+[2025-07-15 08:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 08:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 08:40:16] === Inicio del proceso ===
+[2025-07-15 08:40:16] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 08:40:16] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 09:00:43] === Inicio del proceso ===
+[2025-07-15 09:00:43] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 09:20:08] === Inicio del proceso ===
+[2025-07-15 09:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 09:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 09:40:09] === Inicio del proceso ===
+[2025-07-15 09:40:09] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 09:40:09] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 10:00:40] === Inicio del proceso ===
+[2025-07-15 10:00:40] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 10:20:07] === Inicio del proceso ===
+[2025-07-15 10:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 10:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 10:40:08] === Inicio del proceso ===
+[2025-07-15 10:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 10:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 11:00:40] === Inicio del proceso ===
+[2025-07-15 11:00:40] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 11:20:09] === Inicio del proceso ===
+[2025-07-15 11:20:09] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 11:20:09] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 11:40:08] === Inicio del proceso ===
+[2025-07-15 11:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 11:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 12:00:07] === Inicio del proceso ===
+[2025-07-15 12:00:07] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 12:20:08] === Inicio del proceso ===
+[2025-07-15 12:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 12:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 12:40:07] === Inicio del proceso ===
+[2025-07-15 12:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 12:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 13:00:40] === Inicio del proceso ===
+[2025-07-15 13:00:40] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 13:20:07] === Inicio del proceso ===
+[2025-07-15 13:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 13:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 13:40:07] === Inicio del proceso ===
+[2025-07-15 13:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 13:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 14:00:58] === Inicio del proceso ===
+[2025-07-15 14:00:58] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 14:20:08] === Inicio del proceso ===
+[2025-07-15 14:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 14:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 14:40:07] === Inicio del proceso ===
+[2025-07-15 14:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 14:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 15:00:05] === Inicio del proceso ===
+[2025-07-15 15:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 15:20:26] === Inicio del proceso ===
+[2025-07-15 15:20:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 15:20:27] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 15:40:08] === Inicio del proceso ===
+[2025-07-15 15:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 15:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 16:00:05] === Inicio del proceso ===
+[2025-07-15 16:00:05] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 16:20:29] === Inicio del proceso ===
+[2025-07-15 16:20:29] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 16:20:30] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 16:40:07] === Inicio del proceso ===
+[2025-07-15 16:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 16:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 16:47:02] === Inicio del proceso ===
+[2025-07-15 16:47:02] El archivo no tiene cambios reales. Saliendo.
+[2025-07-15 17:00:41] === Inicio del proceso ===
+[2025-07-15 17:00:41] El archivo no tiene cambios reales. Saliendo.

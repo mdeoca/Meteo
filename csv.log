@@ -1,1978 +1,3 @@
-[2025-07-08 17:15:33] === Iniciando proceso ===
-[2025-07-08 17:15:33] ERROR: Archivo origen no existe: /home/mdeoca/TEMPE/bme688/datos.csv
-[2025-07-08 17:16:28] === Iniciando proceso ===
-[2025-07-08 17:16:28] El archivo no tiene cambios. No se requiere actualización.
-[2025-07-08 17:20:07] Iniciando proceso de actualización...
-[2025-07-08 17:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 17:20:07] EXITO: git add datos.csv
-[2025-07-08 17:20:07] Salida:
-[2025-07-08 17:20:07] EXITO: git commit -m Actualización automática 2025-07-08 17:20:07
-[2025-07-08 17:20:07] Salida: [main ae398e8] Actualización automática 2025-07-08 17:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-08 17:20:08] ERROR en git push origin main
-[2025-07-08 17:20:08] Código: 1
-[2025-07-08 17:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 17:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 17:40:07] Iniciando proceso de actualización...
-[2025-07-08 17:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 17:40:07] EXITO: git add datos.csv
-[2025-07-08 17:40:07] Salida:
-[2025-07-08 17:40:07] EXITO: git commit -m Actualización automática 2025-07-08 17:40:07
-[2025-07-08 17:40:07] Salida: [main b402783] Actualización automática 2025-07-08 17:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-08 17:40:08] ERROR en git push origin main
-[2025-07-08 17:40:08] Código: 1
-[2025-07-08 17:40:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 17:40:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 18:00:05] Iniciando proceso de actualización...
-[2025-07-08 18:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-08 18:20:07] Iniciando proceso de actualización...
-[2025-07-08 18:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 18:20:08] EXITO: git add datos.csv
-[2025-07-08 18:20:08] Salida:
-[2025-07-08 18:20:08] EXITO: git commit -m Actualización automática 2025-07-08 18:20:07
-[2025-07-08 18:20:08] Salida: [main 773a791] Actualización automática 2025-07-08 18:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-08 18:20:09] ERROR en git push origin main
-[2025-07-08 18:20:09] Código: 1
-[2025-07-08 18:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 18:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 18:40:07] Iniciando proceso de actualización...
-[2025-07-08 18:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 18:40:07] EXITO: git add datos.csv
-[2025-07-08 18:40:07] Salida:
-[2025-07-08 18:40:07] EXITO: git commit -m Actualización automática 2025-07-08 18:40:07
-[2025-07-08 18:40:07] Salida: [main b7295de] Actualización automática 2025-07-08 18:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-08 18:40:08] ERROR en git push origin main
-[2025-07-08 18:40:08] Código: 1
-[2025-07-08 18:40:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 18:40:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 19:00:44] Iniciando proceso de actualización...
-[2025-07-08 19:00:44] No hay cambios en el archivo. Saliendo.
-[2025-07-08 19:20:07] Iniciando proceso de actualización...
-[2025-07-08 19:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 19:20:07] EXITO: git add datos.csv
-[2025-07-08 19:20:07] Salida:
-[2025-07-08 19:20:07] EXITO: git commit -m Actualización automática 2025-07-08 19:20:07
-[2025-07-08 19:20:07] Salida: [main 5f8585e] Actualización automática 2025-07-08 19:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-08 19:20:08] ERROR en git push origin main
-[2025-07-08 19:20:08] Código: 1
-[2025-07-08 19:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 19:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 19:40:07] Iniciando proceso de actualización...
-[2025-07-08 19:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 19:40:08] EXITO: git add datos.csv
-[2025-07-08 19:40:08] Salida:
-[2025-07-08 19:40:08] EXITO: git commit -m Actualización automática 2025-07-08 19:40:07
-[2025-07-08 19:40:08] Salida: [main 80667ab] Actualización automática 2025-07-08 19:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-08 19:40:09] ERROR en git push origin main
-[2025-07-08 19:40:09] Código: 1
-[2025-07-08 19:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 19:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 20:00:42] Iniciando proceso de actualización...
-[2025-07-08 20:00:42] No hay cambios en el archivo. Saliendo.
-[2025-07-08 20:20:25] Iniciando proceso de actualización...
-[2025-07-08 20:20:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 20:20:25] EXITO: git add datos.csv
-[2025-07-08 20:20:25] Salida:
-[2025-07-08 20:20:25] EXITO: git commit -m Actualización automática 2025-07-08 20:20:25
-[2025-07-08 20:20:25] Salida: [main 9785eed] Actualización automática 2025-07-08 20:20:25
- 1 file changed, 1 insertion(+)
-[2025-07-08 20:20:26] ERROR en git push origin main
-[2025-07-08 20:20:26] Código: 1
-[2025-07-08 20:20:26] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 20:20:26] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 20:40:07] Iniciando proceso de actualización...
-[2025-07-08 20:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 20:40:07] EXITO: git add datos.csv
-[2025-07-08 20:40:07] Salida:
-[2025-07-08 20:40:07] EXITO: git commit -m Actualización automática 2025-07-08 20:40:07
-[2025-07-08 20:40:07] Salida: [main ddf227b] Actualización automática 2025-07-08 20:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-08 20:40:08] ERROR en git push origin main
-[2025-07-08 20:40:08] Código: 1
-[2025-07-08 20:40:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 20:40:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 21:00:30] Iniciando proceso de actualización...
-[2025-07-08 21:00:30] No hay cambios en el archivo. Saliendo.
-[2025-07-08 21:20:41] Iniciando proceso de actualización...
-[2025-07-08 21:20:41] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 21:20:41] EXITO: git add datos.csv
-[2025-07-08 21:20:41] Salida:
-[2025-07-08 21:20:41] EXITO: git commit -m Actualización automática 2025-07-08 21:20:41
-[2025-07-08 21:20:41] Salida: [main df3d1cb] Actualización automática 2025-07-08 21:20:41
- 1 file changed, 1 insertion(+)
-[2025-07-08 21:20:43] ERROR en git push origin main
-[2025-07-08 21:20:43] Código: 1
-[2025-07-08 21:20:43] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 21:20:43] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 21:40:40] Iniciando proceso de actualización...
-[2025-07-08 21:40:40] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 21:40:40] EXITO: git add datos.csv
-[2025-07-08 21:40:40] Salida:
-[2025-07-08 21:40:41] EXITO: git commit -m Actualización automática 2025-07-08 21:40:40
-[2025-07-08 21:40:41] Salida: [main 9f268fa] Actualización automática 2025-07-08 21:40:40
- 1 file changed, 1 insertion(+)
-[2025-07-08 21:40:42] ERROR en git push origin main
-[2025-07-08 21:40:42] Código: 1
-[2025-07-08 21:40:42] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 21:40:42] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 22:00:55] Iniciando proceso de actualización...
-[2025-07-08 22:00:55] No hay cambios en el archivo. Saliendo.
-[2025-07-08 22:20:40] Iniciando proceso de actualización...
-[2025-07-08 22:20:40] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 22:20:40] EXITO: git add datos.csv
-[2025-07-08 22:20:40] Salida:
-[2025-07-08 22:20:40] EXITO: git commit -m Actualización automática 2025-07-08 22:20:40
-[2025-07-08 22:20:40] Salida: [main 7f3f586] Actualización automática 2025-07-08 22:20:40
- 1 file changed, 1 insertion(+)
-[2025-07-08 22:20:42] ERROR en git push origin main
-[2025-07-08 22:20:42] Código: 1
-[2025-07-08 22:20:42] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 22:20:42] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 22:40:40] Iniciando proceso de actualización...
-[2025-07-08 22:40:40] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 22:40:40] EXITO: git add datos.csv
-[2025-07-08 22:40:40] Salida:
-[2025-07-08 22:40:40] EXITO: git commit -m Actualización automática 2025-07-08 22:40:40
-[2025-07-08 22:40:40] Salida: [main 32aa221] Actualización automática 2025-07-08 22:40:40
- 1 file changed, 1 insertion(+)
-[2025-07-08 22:40:41] ERROR en git push origin main
-[2025-07-08 22:40:41] Código: 1
-[2025-07-08 22:40:41] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 22:40:41] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 23:00:08] Iniciando proceso de actualización...
-[2025-07-08 23:00:08] No hay cambios en el archivo. Saliendo.
-[2025-07-08 23:20:24] Iniciando proceso de actualización...
-[2025-07-08 23:20:24] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 23:20:24] EXITO: git add datos.csv
-[2025-07-08 23:20:24] Salida:
-[2025-07-08 23:20:24] EXITO: git commit -m Actualización automática 2025-07-08 23:20:24
-[2025-07-08 23:20:24] Salida: [main 4d07707] Actualización automática 2025-07-08 23:20:24
- 1 file changed, 1 insertion(+)
-[2025-07-08 23:20:26] ERROR en git push origin main
-[2025-07-08 23:20:26] Código: 1
-[2025-07-08 23:20:26] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 23:20:26] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-08 23:40:58] Iniciando proceso de actualización...
-[2025-07-08 23:40:58] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-08 23:40:58] EXITO: git add datos.csv
-[2025-07-08 23:40:58] Salida:
-[2025-07-08 23:40:58] EXITO: git commit -m Actualización automática 2025-07-08 23:40:58
-[2025-07-08 23:40:58] Salida: [main 1a779e3] Actualización automática 2025-07-08 23:40:58
- 1 file changed, 1 insertion(+)
-[2025-07-08 23:40:59] ERROR en git push origin main
-[2025-07-08 23:40:59] Código: 1
-[2025-07-08 23:40:59] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-08 23:40:59] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 00:00:45] Iniciando proceso de actualización...
-[2025-07-09 00:00:45] No hay cambios en el archivo. Saliendo.
-[2025-07-09 00:20:25] Iniciando proceso de actualización...
-[2025-07-09 00:20:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 00:20:25] EXITO: git add datos.csv
-[2025-07-09 00:20:25] Salida:
-[2025-07-09 00:20:25] EXITO: git commit -m Actualización automática 2025-07-09 00:20:25
-[2025-07-09 00:20:25] Salida: [main 7dd5086] Actualización automática 2025-07-09 00:20:25
- 1 file changed, 1 insertion(+)
-[2025-07-09 00:20:26] ERROR en git push origin main
-[2025-07-09 00:20:26] Código: 1
-[2025-07-09 00:20:26] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 00:20:26] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 00:40:25] Iniciando proceso de actualización...
-[2025-07-09 00:40:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 00:40:25] EXITO: git add datos.csv
-[2025-07-09 00:40:25] Salida:
-[2025-07-09 00:40:25] EXITO: git commit -m Actualización automática 2025-07-09 00:40:25
-[2025-07-09 00:40:25] Salida: [main e795cbb] Actualización automática 2025-07-09 00:40:25
- 1 file changed, 1 insertion(+)
-[2025-07-09 00:40:27] ERROR en git push origin main
-[2025-07-09 00:40:27] Código: 1
-[2025-07-09 00:40:27] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 00:40:27] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 01:00:05] Iniciando proceso de actualización...
-[2025-07-09 01:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-09 01:20:07] Iniciando proceso de actualización...
-[2025-07-09 01:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 01:20:07] EXITO: git add datos.csv
-[2025-07-09 01:20:07] Salida:
-[2025-07-09 01:20:07] EXITO: git commit -m Actualización automática 2025-07-09 01:20:07
-[2025-07-09 01:20:07] Salida: [main 3987ff2] Actualización automática 2025-07-09 01:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 01:20:08] ERROR en git push origin main
-[2025-07-09 01:20:08] Código: 1
-[2025-07-09 01:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 01:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 01:40:07] Iniciando proceso de actualización...
-[2025-07-09 01:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 01:40:08] EXITO: git add datos.csv
-[2025-07-09 01:40:08] Salida:
-[2025-07-09 01:40:08] EXITO: git commit -m Actualización automática 2025-07-09 01:40:07
-[2025-07-09 01:40:08] Salida: [main 7f67eab] Actualización automática 2025-07-09 01:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 01:40:09] ERROR en git push origin main
-[2025-07-09 01:40:09] Código: 1
-[2025-07-09 01:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 01:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 02:00:58] Iniciando proceso de actualización...
-[2025-07-09 02:00:58] No hay cambios en el archivo. Saliendo.
-[2025-07-09 02:20:07] Iniciando proceso de actualización...
-[2025-07-09 02:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 02:20:07] EXITO: git add datos.csv
-[2025-07-09 02:20:07] Salida:
-[2025-07-09 02:20:07] EXITO: git commit -m Actualización automática 2025-07-09 02:20:07
-[2025-07-09 02:20:07] Salida: [main aa0453c] Actualización automática 2025-07-09 02:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 02:20:08] ERROR en git push origin main
-[2025-07-09 02:20:08] Código: 1
-[2025-07-09 02:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 02:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 02:40:40] Iniciando proceso de actualización...
-[2025-07-09 02:40:40] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 02:40:40] EXITO: git add datos.csv
-[2025-07-09 02:40:40] Salida:
-[2025-07-09 02:40:40] EXITO: git commit -m Actualización automática 2025-07-09 02:40:40
-[2025-07-09 02:40:40] Salida: [main aade162] Actualización automática 2025-07-09 02:40:40
- 1 file changed, 1 insertion(+)
-[2025-07-09 02:40:41] ERROR en git push origin main
-[2025-07-09 02:40:41] Código: 1
-[2025-07-09 02:40:41] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 02:40:41] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 03:00:57] Iniciando proceso de actualización...
-[2025-07-09 03:00:57] No hay cambios en el archivo. Saliendo.
-[2025-07-09 03:20:40] Iniciando proceso de actualización...
-[2025-07-09 03:20:40] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 03:20:40] EXITO: git add datos.csv
-[2025-07-09 03:20:40] Salida:
-[2025-07-09 03:20:40] EXITO: git commit -m Actualización automática 2025-07-09 03:20:40
-[2025-07-09 03:20:40] Salida: [main dad8253] Actualización automática 2025-07-09 03:20:40
- 1 file changed, 1 insertion(+)
-[2025-07-09 03:20:42] ERROR en git push origin main
-[2025-07-09 03:20:42] Código: 1
-[2025-07-09 03:20:42] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 03:20:42] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 03:40:29] Iniciando proceso de actualización...
-[2025-07-09 03:40:29] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 03:40:30] EXITO: git add datos.csv
-[2025-07-09 03:40:30] Salida:
-[2025-07-09 03:40:30] EXITO: git commit -m Actualización automática 2025-07-09 03:40:29
-[2025-07-09 03:40:30] Salida: [main d256a86] Actualización automática 2025-07-09 03:40:29
- 1 file changed, 1 insertion(+)
-[2025-07-09 03:40:31] ERROR en git push origin main
-[2025-07-09 03:40:31] Código: 1
-[2025-07-09 03:40:31] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 03:40:31] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 04:00:22] Iniciando proceso de actualización...
-[2025-07-09 04:00:22] No hay cambios en el archivo. Saliendo.
-[2025-07-09 04:20:56] Iniciando proceso de actualización...
-[2025-07-09 04:20:56] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 04:20:56] EXITO: git add datos.csv
-[2025-07-09 04:20:56] Salida:
-[2025-07-09 04:20:56] EXITO: git commit -m Actualización automática 2025-07-09 04:20:56
-[2025-07-09 04:20:56] Salida: [main 57777cc] Actualización automática 2025-07-09 04:20:56
- 1 file changed, 1 insertion(+)
-[2025-07-09 04:20:58] ERROR en git push origin main
-[2025-07-09 04:20:58] Código: 1
-[2025-07-09 04:20:58] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 04:20:58] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 04:40:07] Iniciando proceso de actualización...
-[2025-07-09 04:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 04:40:07] EXITO: git add datos.csv
-[2025-07-09 04:40:07] Salida:
-[2025-07-09 04:40:08] EXITO: git commit -m Actualización automática 2025-07-09 04:40:07
-[2025-07-09 04:40:08] Salida: [main e0b6748] Actualización automática 2025-07-09 04:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 04:40:09] ERROR en git push origin main
-[2025-07-09 04:40:09] Código: 1
-[2025-07-09 04:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 04:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 05:00:05] Iniciando proceso de actualización...
-[2025-07-09 05:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-09 05:20:27] Iniciando proceso de actualización...
-[2025-07-09 05:20:28] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 05:20:28] EXITO: git add datos.csv
-[2025-07-09 05:20:28] Salida:
-[2025-07-09 05:20:28] EXITO: git commit -m Actualización automática 2025-07-09 05:20:28
-[2025-07-09 05:20:28] Salida: [main 27339bf] Actualización automática 2025-07-09 05:20:28
- 1 file changed, 1 insertion(+)
-[2025-07-09 05:20:29] ERROR en git push origin main
-[2025-07-09 05:20:29] Código: 1
-[2025-07-09 05:20:29] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 05:20:29] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 05:40:42] Iniciando proceso de actualización...
-[2025-07-09 05:40:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 05:40:42] EXITO: git add datos.csv
-[2025-07-09 05:40:42] Salida:
-[2025-07-09 05:40:42] EXITO: git commit -m Actualización automática 2025-07-09 05:40:42
-[2025-07-09 05:40:42] Salida: [main 0ba74db] Actualización automática 2025-07-09 05:40:42
- 1 file changed, 1 insertion(+)
-[2025-07-09 05:40:44] ERROR en git push origin main
-[2025-07-09 05:40:44] Código: 1
-[2025-07-09 05:40:44] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 05:40:44] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 06:00:05] Iniciando proceso de actualización...
-[2025-07-09 06:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-09 06:20:26] Iniciando proceso de actualización...
-[2025-07-09 06:20:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 06:20:26] EXITO: git add datos.csv
-[2025-07-09 06:20:26] Salida:
-[2025-07-09 06:20:26] EXITO: git commit -m Actualización automática 2025-07-09 06:20:26
-[2025-07-09 06:20:26] Salida: [main 9706848] Actualización automática 2025-07-09 06:20:26
- 1 file changed, 1 insertion(+)
-[2025-07-09 06:20:28] ERROR en git push origin main
-[2025-07-09 06:20:28] Código: 1
-[2025-07-09 06:20:28] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 06:20:28] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 06:40:08] Iniciando proceso de actualización...
-[2025-07-09 06:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 06:40:08] EXITO: git add datos.csv
-[2025-07-09 06:40:08] Salida:
-[2025-07-09 06:40:08] EXITO: git commit -m Actualización automática 2025-07-09 06:40:08
-[2025-07-09 06:40:08] Salida: [main 0845463] Actualización automática 2025-07-09 06:40:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 06:40:10] ERROR en git push origin main
-[2025-07-09 06:40:10] Código: 1
-[2025-07-09 06:40:10] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 06:40:10] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 07:00:05] Iniciando proceso de actualización...
-[2025-07-09 07:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-09 07:20:07] Iniciando proceso de actualización...
-[2025-07-09 07:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 07:20:07] EXITO: git add datos.csv
-[2025-07-09 07:20:07] Salida:
-[2025-07-09 07:20:07] EXITO: git commit -m Actualización automática 2025-07-09 07:20:07
-[2025-07-09 07:20:07] Salida: [main 955e193] Actualización automática 2025-07-09 07:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 07:20:08] ERROR en git push origin main
-[2025-07-09 07:20:08] Código: 1
-[2025-07-09 07:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 07:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 07:40:08] Iniciando proceso de actualización...
-[2025-07-09 07:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 07:40:08] EXITO: git add datos.csv
-[2025-07-09 07:40:08] Salida:
-[2025-07-09 07:40:08] EXITO: git commit -m Actualización automática 2025-07-09 07:40:08
-[2025-07-09 07:40:08] Salida: [main 94f6bec] Actualización automática 2025-07-09 07:40:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 07:40:09] ERROR en git push origin main
-[2025-07-09 07:40:09] Código: 1
-[2025-07-09 07:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 07:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 08:00:05] Iniciando proceso de actualización...
-[2025-07-09 08:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-09 08:20:08] Iniciando proceso de actualización...
-[2025-07-09 08:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 08:20:08] EXITO: git add datos.csv
-[2025-07-09 08:20:08] Salida:
-[2025-07-09 08:20:08] EXITO: git commit -m Actualización automática 2025-07-09 08:20:08
-[2025-07-09 08:20:08] Salida: [main 099790b] Actualización automática 2025-07-09 08:20:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 08:20:09] ERROR en git push origin main
-[2025-07-09 08:20:09] Código: 1
-[2025-07-09 08:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 08:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 08:40:07] Iniciando proceso de actualización...
-[2025-07-09 08:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 08:40:07] EXITO: git add datos.csv
-[2025-07-09 08:40:07] Salida:
-[2025-07-09 08:40:07] EXITO: git commit -m Actualización automática 2025-07-09 08:40:07
-[2025-07-09 08:40:07] Salida: [main 93fd446] Actualización automática 2025-07-09 08:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 08:40:08] ERROR en git push origin main
-[2025-07-09 08:40:08] Código: 1
-[2025-07-09 08:40:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 08:40:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 09:00:40] Iniciando proceso de actualización...
-[2025-07-09 09:00:41] No hay cambios en el archivo. Saliendo.
-[2025-07-09 09:20:08] Iniciando proceso de actualización...
-[2025-07-09 09:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 09:20:08] EXITO: git add datos.csv
-[2025-07-09 09:20:08] Salida:
-[2025-07-09 09:20:08] EXITO: git commit -m Actualización automática 2025-07-09 09:20:08
-[2025-07-09 09:20:08] Salida: [main 7a5903f] Actualización automática 2025-07-09 09:20:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 09:20:09] ERROR en git push origin main
-[2025-07-09 09:20:09] Código: 1
-[2025-07-09 09:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 09:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 09:40:07] Iniciando proceso de actualización...
-[2025-07-09 09:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 09:40:07] EXITO: git add datos.csv
-[2025-07-09 09:40:07] Salida:
-[2025-07-09 09:40:08] EXITO: git commit -m Actualización automática 2025-07-09 09:40:07
-[2025-07-09 09:40:08] Salida: [main fcec15a] Actualización automática 2025-07-09 09:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 09:40:09] ERROR en git push origin main
-[2025-07-09 09:40:09] Código: 1
-[2025-07-09 09:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 09:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 10:00:09] Iniciando proceso de actualización...
-[2025-07-09 10:00:09] No hay cambios en el archivo. Saliendo.
-[2025-07-09 10:20:08] Iniciando proceso de actualización...
-[2025-07-09 10:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 10:20:08] EXITO: git add datos.csv
-[2025-07-09 10:20:08] Salida:
-[2025-07-09 10:20:08] EXITO: git commit -m Actualización automática 2025-07-09 10:20:08
-[2025-07-09 10:20:08] Salida: [main 6599f93] Actualización automática 2025-07-09 10:20:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 10:20:09] ERROR en git push origin main
-[2025-07-09 10:20:09] Código: 1
-[2025-07-09 10:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 10:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 10:40:07] Iniciando proceso de actualización...
-[2025-07-09 10:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 10:40:07] EXITO: git add datos.csv
-[2025-07-09 10:40:07] Salida:
-[2025-07-09 10:40:07] EXITO: git commit -m Actualización automática 2025-07-09 10:40:07
-[2025-07-09 10:40:07] Salida: [main 067f44c] Actualización automática 2025-07-09 10:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 10:40:09] ERROR en git push origin main
-[2025-07-09 10:40:09] Código: 1
-[2025-07-09 10:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 10:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 11:00:59] Iniciando proceso de actualización...
-[2025-07-09 11:00:59] No hay cambios en el archivo. Saliendo.
-[2025-07-09 11:20:08] Iniciando proceso de actualización...
-[2025-07-09 11:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 11:20:08] EXITO: git add datos.csv
-[2025-07-09 11:20:08] Salida:
-[2025-07-09 11:20:08] EXITO: git commit -m Actualización automática 2025-07-09 11:20:08
-[2025-07-09 11:20:08] Salida: [main cc64885] Actualización automática 2025-07-09 11:20:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 11:20:09] ERROR en git push origin main
-[2025-07-09 11:20:09] Código: 1
-[2025-07-09 11:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 11:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 11:40:07] Iniciando proceso de actualización...
-[2025-07-09 11:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 11:40:07] EXITO: git add datos.csv
-[2025-07-09 11:40:07] Salida:
-[2025-07-09 11:40:07] EXITO: git commit -m Actualización automática 2025-07-09 11:40:07
-[2025-07-09 11:40:07] Salida: [main a258f0f] Actualización automática 2025-07-09 11:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 11:40:09] ERROR en git push origin main
-[2025-07-09 11:40:09] Código: 1
-[2025-07-09 11:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 11:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 12:00:05] Iniciando proceso de actualización...
-[2025-07-09 12:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-09 12:20:08] Iniciando proceso de actualización...
-[2025-07-09 12:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 12:20:08] EXITO: git add datos.csv
-[2025-07-09 12:20:08] Salida:
-[2025-07-09 12:20:08] EXITO: git commit -m Actualización automática 2025-07-09 12:20:08
-[2025-07-09 12:20:08] Salida: [main 41ac675] Actualización automática 2025-07-09 12:20:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 12:20:09] ERROR en git push origin main
-[2025-07-09 12:20:09] Código: 1
-[2025-07-09 12:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 12:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 12:40:07] Iniciando proceso de actualización...
-[2025-07-09 12:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 12:40:08] EXITO: git add datos.csv
-[2025-07-09 12:40:08] Salida:
-[2025-07-09 12:40:08] EXITO: git commit -m Actualización automática 2025-07-09 12:40:08
-[2025-07-09 12:40:08] Salida: [main cd95d7a] Actualización automática 2025-07-09 12:40:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 12:40:09] ERROR en git push origin main
-[2025-07-09 12:40:09] Código: 1
-[2025-07-09 12:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 12:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 13:00:08] Iniciando proceso de actualización...
-[2025-07-09 13:00:08] No hay cambios en el archivo. Saliendo.
-[2025-07-09 13:20:07] Iniciando proceso de actualización...
-[2025-07-09 13:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 13:20:07] EXITO: git add datos.csv
-[2025-07-09 13:20:07] Salida:
-[2025-07-09 13:20:07] EXITO: git commit -m Actualización automática 2025-07-09 13:20:07
-[2025-07-09 13:20:07] Salida: [main 4bc7e3e] Actualización automática 2025-07-09 13:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 13:20:08] ERROR en git push origin main
-[2025-07-09 13:20:08] Código: 1
-[2025-07-09 13:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 13:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 13:40:07] Iniciando proceso de actualización...
-[2025-07-09 13:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 13:40:07] EXITO: git add datos.csv
-[2025-07-09 13:40:07] Salida:
-[2025-07-09 13:40:07] EXITO: git commit -m Actualización automática 2025-07-09 13:40:07
-[2025-07-09 13:40:07] Salida: [main 2672c46] Actualización automática 2025-07-09 13:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 13:40:09] ERROR en git push origin main
-[2025-07-09 13:40:09] Código: 1
-[2025-07-09 13:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 13:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 14:00:06] Iniciando proceso de actualización...
-[2025-07-09 14:00:06] No hay cambios en el archivo. Saliendo.
-[2025-07-09 14:20:08] Iniciando proceso de actualización...
-[2025-07-09 14:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 14:20:08] EXITO: git add datos.csv
-[2025-07-09 14:20:08] Salida:
-[2025-07-09 14:20:08] EXITO: git commit -m Actualización automática 2025-07-09 14:20:08
-[2025-07-09 14:20:08] Salida: [main cb5bfd7] Actualización automática 2025-07-09 14:20:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 14:20:10] ERROR en git push origin main
-[2025-07-09 14:20:10] Código: 1
-[2025-07-09 14:20:10] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 14:20:10] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 14:40:08] Iniciando proceso de actualización...
-[2025-07-09 14:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 14:40:08] EXITO: git add datos.csv
-[2025-07-09 14:40:08] Salida:
-[2025-07-09 14:40:08] EXITO: git commit -m Actualización automática 2025-07-09 14:40:08
-[2025-07-09 14:40:08] Salida: [main a78b6f7] Actualización automática 2025-07-09 14:40:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 14:40:09] ERROR en git push origin main
-[2025-07-09 14:40:09] Código: 1
-[2025-07-09 14:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 14:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 15:00:05] Iniciando proceso de actualización...
-[2025-07-09 15:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-09 15:20:08] Iniciando proceso de actualización...
-[2025-07-09 15:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 15:20:08] EXITO: git add datos.csv
-[2025-07-09 15:20:08] Salida:
-[2025-07-09 15:20:08] EXITO: git commit -m Actualización automática 2025-07-09 15:20:08
-[2025-07-09 15:20:08] Salida: [main d2304af] Actualización automática 2025-07-09 15:20:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 15:20:09] ERROR en git push origin main
-[2025-07-09 15:20:09] Código: 1
-[2025-07-09 15:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 15:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 15:40:07] Iniciando proceso de actualización...
-[2025-07-09 15:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 15:40:07] EXITO: git add datos.csv
-[2025-07-09 15:40:07] Salida:
-[2025-07-09 15:40:07] EXITO: git commit -m Actualización automática 2025-07-09 15:40:07
-[2025-07-09 15:40:07] Salida: [main 0527867] Actualización automática 2025-07-09 15:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 15:40:08] ERROR en git push origin main
-[2025-07-09 15:40:08] Código: 1
-[2025-07-09 15:40:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 15:40:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 16:00:05] Iniciando proceso de actualización...
-[2025-07-09 16:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-09 16:20:07] Iniciando proceso de actualización...
-[2025-07-09 16:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 16:20:07] EXITO: git add datos.csv
-[2025-07-09 16:20:07] Salida:
-[2025-07-09 16:20:07] EXITO: git commit -m Actualización automática 2025-07-09 16:20:07
-[2025-07-09 16:20:07] Salida: [main 143307a] Actualización automática 2025-07-09 16:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 16:20:08] ERROR en git push origin main
-[2025-07-09 16:20:08] Código: 1
-[2025-07-09 16:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 16:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 16:40:07] Iniciando proceso de actualización...
-[2025-07-09 16:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 16:40:07] EXITO: git add datos.csv
-[2025-07-09 16:40:07] Salida:
-[2025-07-09 16:40:07] EXITO: git commit -m Actualización automática 2025-07-09 16:40:07
-[2025-07-09 16:40:07] Salida: [main e44c0d1] Actualización automática 2025-07-09 16:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 16:40:09] ERROR en git push origin main
-[2025-07-09 16:40:09] Código: 1
-[2025-07-09 16:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 16:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 17:00:06] Iniciando proceso de actualización...
-[2025-07-09 17:00:06] No hay cambios en el archivo. Saliendo.
-[2025-07-09 17:20:08] Iniciando proceso de actualización...
-[2025-07-09 17:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 17:20:08] EXITO: git add datos.csv
-[2025-07-09 17:20:08] Salida:
-[2025-07-09 17:20:08] EXITO: git commit -m Actualización automática 2025-07-09 17:20:08
-[2025-07-09 17:20:08] Salida: [main 8a5952f] Actualización automática 2025-07-09 17:20:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 17:20:09] ERROR en git push origin main
-[2025-07-09 17:20:09] Código: 1
-[2025-07-09 17:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 17:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 17:40:07] Iniciando proceso de actualización...
-[2025-07-09 17:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 17:40:07] EXITO: git add datos.csv
-[2025-07-09 17:40:07] Salida:
-[2025-07-09 17:40:07] EXITO: git commit -m Actualización automática 2025-07-09 17:40:07
-[2025-07-09 17:40:07] Salida: [main a57b1ac] Actualización automática 2025-07-09 17:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 17:40:09] ERROR en git push origin main
-[2025-07-09 17:40:09] Código: 1
-[2025-07-09 17:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 17:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 18:00:05] Iniciando proceso de actualización...
-[2025-07-09 18:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-09 18:20:46] Iniciando proceso de actualización...
-[2025-07-09 18:20:46] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 18:20:46] EXITO: git add datos.csv
-[2025-07-09 18:20:46] Salida:
-[2025-07-09 18:20:46] EXITO: git commit -m Actualización automática 2025-07-09 18:20:46
-[2025-07-09 18:20:46] Salida: [main 855a441] Actualización automática 2025-07-09 18:20:46
- 1 file changed, 1 insertion(+)
-[2025-07-09 18:20:47] ERROR en git push origin main
-[2025-07-09 18:20:47] Código: 1
-[2025-07-09 18:20:47] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 18:20:47] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 18:40:08] Iniciando proceso de actualización...
-[2025-07-09 18:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 18:40:08] EXITO: git add datos.csv
-[2025-07-09 18:40:08] Salida:
-[2025-07-09 18:40:08] EXITO: git commit -m Actualización automática 2025-07-09 18:40:08
-[2025-07-09 18:40:08] Salida: [main a0fbcab] Actualización automática 2025-07-09 18:40:08
- 1 file changed, 1 insertion(+)
-[2025-07-09 18:40:10] ERROR en git push origin main
-[2025-07-09 18:40:10] Código: 1
-[2025-07-09 18:40:10] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 18:40:10] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 19:00:08] Iniciando proceso de actualización...
-[2025-07-09 19:00:08] No hay cambios en el archivo. Saliendo.
-[2025-07-09 19:20:07] Iniciando proceso de actualización...
-[2025-07-09 19:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 19:20:07] EXITO: git add datos.csv
-[2025-07-09 19:20:07] Salida:
-[2025-07-09 19:20:07] EXITO: git commit -m Actualización automática 2025-07-09 19:20:07
-[2025-07-09 19:20:07] Salida: [main 22a5c90] Actualización automática 2025-07-09 19:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 19:20:08] ERROR en git push origin main
-[2025-07-09 19:20:08] Código: 1
-[2025-07-09 19:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 19:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 19:40:07] Iniciando proceso de actualización...
-[2025-07-09 19:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 19:40:07] EXITO: git add datos.csv
-[2025-07-09 19:40:07] Salida:
-[2025-07-09 19:40:07] EXITO: git commit -m Actualización automática 2025-07-09 19:40:07
-[2025-07-09 19:40:07] Salida: [main 08d6a45] Actualización automática 2025-07-09 19:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 19:40:08] ERROR en git push origin main
-[2025-07-09 19:40:08] Código: 1
-[2025-07-09 19:40:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 19:40:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 20:00:42] Iniciando proceso de actualización...
-[2025-07-09 20:00:42] No hay cambios en el archivo. Saliendo.
-[2025-07-09 20:20:42] Iniciando proceso de actualización...
-[2025-07-09 20:20:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 20:20:42] EXITO: git add datos.csv
-[2025-07-09 20:20:42] Salida:
-[2025-07-09 20:20:42] EXITO: git commit -m Actualización automática 2025-07-09 20:20:42
-[2025-07-09 20:20:42] Salida: [main 2627b5c] Actualización automática 2025-07-09 20:20:42
- 1 file changed, 1 insertion(+)
-[2025-07-09 20:20:44] ERROR en git push origin main
-[2025-07-09 20:20:44] Código: 1
-[2025-07-09 20:20:44] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 20:20:44] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 20:40:24] Iniciando proceso de actualización...
-[2025-07-09 20:40:24] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 20:40:24] EXITO: git add datos.csv
-[2025-07-09 20:40:24] Salida:
-[2025-07-09 20:40:24] EXITO: git commit -m Actualización automática 2025-07-09 20:40:24
-[2025-07-09 20:40:24] Salida: [main 4fb8e8a] Actualización automática 2025-07-09 20:40:24
- 1 file changed, 1 insertion(+)
-[2025-07-09 20:40:25] ERROR en git push origin main
-[2025-07-09 20:40:25] Código: 1
-[2025-07-09 20:40:25] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 20:40:25] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 21:00:30] Iniciando proceso de actualización...
-[2025-07-09 21:00:30] No hay cambios en el archivo. Saliendo.
-[2025-07-09 21:20:58] Iniciando proceso de actualización...
-[2025-07-09 21:20:58] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 21:20:58] EXITO: git add datos.csv
-[2025-07-09 21:20:58] Salida:
-[2025-07-09 21:20:58] EXITO: git commit -m Actualización automática 2025-07-09 21:20:58
-[2025-07-09 21:20:58] Salida: [main d6da8e0] Actualización automática 2025-07-09 21:20:58
- 1 file changed, 1 insertion(+)
-[2025-07-09 21:21:00] ERROR en git push origin main
-[2025-07-09 21:21:00] Código: 1
-[2025-07-09 21:21:00] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 21:21:00] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 21:40:07] Iniciando proceso de actualización...
-[2025-07-09 21:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 21:40:07] EXITO: git add datos.csv
-[2025-07-09 21:40:07] Salida:
-[2025-07-09 21:40:07] EXITO: git commit -m Actualización automática 2025-07-09 21:40:07
-[2025-07-09 21:40:07] Salida: [main 982829d] Actualización automática 2025-07-09 21:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 21:40:09] ERROR en git push origin main
-[2025-07-09 21:40:09] Código: 1
-[2025-07-09 21:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 21:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 22:00:14] Iniciando proceso de actualización...
-[2025-07-09 22:00:14] No hay cambios en el archivo. Saliendo.
-[2025-07-09 22:20:24] Iniciando proceso de actualización...
-[2025-07-09 22:20:24] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 22:20:24] EXITO: git add datos.csv
-[2025-07-09 22:20:24] Salida:
-[2025-07-09 22:20:24] EXITO: git commit -m Actualización automática 2025-07-09 22:20:24
-[2025-07-09 22:20:24] Salida: [main baa8346] Actualización automática 2025-07-09 22:20:24
- 1 file changed, 1 insertion(+)
-[2025-07-09 22:20:26] ERROR en git push origin main
-[2025-07-09 22:20:26] Código: 1
-[2025-07-09 22:20:26] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 22:20:26] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 22:40:07] Iniciando proceso de actualización...
-[2025-07-09 22:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 22:40:07] EXITO: git add datos.csv
-[2025-07-09 22:40:07] Salida:
-[2025-07-09 22:40:07] EXITO: git commit -m Actualización automática 2025-07-09 22:40:07
-[2025-07-09 22:40:07] Salida: [main bd227f6] Actualización automática 2025-07-09 22:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 22:40:08] ERROR en git push origin main
-[2025-07-09 22:40:08] Código: 1
-[2025-07-09 22:40:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 22:40:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 23:00:54] Iniciando proceso de actualización...
-[2025-07-09 23:00:54] No hay cambios en el archivo. Saliendo.
-[2025-07-09 23:20:26] Iniciando proceso de actualización...
-[2025-07-09 23:20:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 23:20:26] EXITO: git add datos.csv
-[2025-07-09 23:20:26] Salida:
-[2025-07-09 23:20:26] EXITO: git commit -m Actualización automática 2025-07-09 23:20:26
-[2025-07-09 23:20:26] Salida: [main 1e7ff3c] Actualización automática 2025-07-09 23:20:26
- 1 file changed, 1 insertion(+)
-[2025-07-09 23:20:27] ERROR en git push origin main
-[2025-07-09 23:20:27] Código: 1
-[2025-07-09 23:20:27] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 23:20:27] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-09 23:40:07] Iniciando proceso de actualización...
-[2025-07-09 23:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-09 23:40:07] EXITO: git add datos.csv
-[2025-07-09 23:40:07] Salida:
-[2025-07-09 23:40:07] EXITO: git commit -m Actualización automática 2025-07-09 23:40:07
-[2025-07-09 23:40:07] Salida: [main 58058bc] Actualización automática 2025-07-09 23:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-09 23:40:08] ERROR en git push origin main
-[2025-07-09 23:40:08] Código: 1
-[2025-07-09 23:40:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-09 23:40:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 00:00:41] Iniciando proceso de actualización...
-[2025-07-10 00:00:41] No hay cambios en el archivo. Saliendo.
-[2025-07-10 00:20:26] Iniciando proceso de actualización...
-[2025-07-10 00:20:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 00:20:26] EXITO: git add datos.csv
-[2025-07-10 00:20:26] Salida:
-[2025-07-10 00:20:27] EXITO: git commit -m Actualización automática 2025-07-10 00:20:26
-[2025-07-10 00:20:27] Salida: [main 8767571] Actualización automática 2025-07-10 00:20:26
- 1 file changed, 1 insertion(+)
-[2025-07-10 00:20:28] ERROR en git push origin main
-[2025-07-10 00:20:28] Código: 1
-[2025-07-10 00:20:28] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 00:20:28] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 00:40:26] Iniciando proceso de actualización...
-[2025-07-10 00:40:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 00:40:26] EXITO: git add datos.csv
-[2025-07-10 00:40:26] Salida:
-[2025-07-10 00:40:27] EXITO: git commit -m Actualización automática 2025-07-10 00:40:26
-[2025-07-10 00:40:27] Salida: [main a184387] Actualización automática 2025-07-10 00:40:26
- 1 file changed, 1 insertion(+)
-[2025-07-10 00:40:28] ERROR en git push origin main
-[2025-07-10 00:40:28] Código: 1
-[2025-07-10 00:40:28] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 00:40:28] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 01:00:56] Iniciando proceso de actualización...
-[2025-07-10 01:00:56] No hay cambios en el archivo. Saliendo.
-[2025-07-10 01:20:42] Iniciando proceso de actualización...
-[2025-07-10 01:20:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 01:20:42] EXITO: git add datos.csv
-[2025-07-10 01:20:42] Salida:
-[2025-07-10 01:20:42] EXITO: git commit -m Actualización automática 2025-07-10 01:20:42
-[2025-07-10 01:20:42] Salida: [main b5201cb] Actualización automática 2025-07-10 01:20:42
- 1 file changed, 1 insertion(+)
-[2025-07-10 01:20:43] ERROR en git push origin main
-[2025-07-10 01:20:43] Código: 1
-[2025-07-10 01:20:43] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 01:20:43] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 01:40:09] Iniciando proceso de actualización...
-[2025-07-10 01:40:09] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 01:40:09] EXITO: git add datos.csv
-[2025-07-10 01:40:09] Salida:
-[2025-07-10 01:40:09] EXITO: git commit -m Actualización automática 2025-07-10 01:40:09
-[2025-07-10 01:40:09] Salida: [main 0264a74] Actualización automática 2025-07-10 01:40:09
- 1 file changed, 1 insertion(+)
-[2025-07-10 01:40:10] ERROR en git push origin main
-[2025-07-10 01:40:10] Código: 1
-[2025-07-10 01:40:10] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 01:40:10] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 02:00:55] Iniciando proceso de actualización...
-[2025-07-10 02:00:55] No hay cambios en el archivo. Saliendo.
-[2025-07-10 02:20:33] Iniciando proceso de actualización...
-[2025-07-10 02:20:33] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 02:20:33] EXITO: git add datos.csv
-[2025-07-10 02:20:33] Salida:
-[2025-07-10 02:20:34] EXITO: git commit -m Actualización automática 2025-07-10 02:20:33
-[2025-07-10 02:20:34] Salida: [main b4d51ae] Actualización automática 2025-07-10 02:20:33
- 1 file changed, 1 insertion(+)
-[2025-07-10 02:20:35] ERROR en git push origin main
-[2025-07-10 02:20:35] Código: 1
-[2025-07-10 02:20:35] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 02:20:35] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 02:40:26] Iniciando proceso de actualización...
-[2025-07-10 02:40:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 02:40:26] EXITO: git add datos.csv
-[2025-07-10 02:40:26] Salida:
-[2025-07-10 02:40:26] EXITO: git commit -m Actualización automática 2025-07-10 02:40:26
-[2025-07-10 02:40:26] Salida: [main 64c8b77] Actualización automática 2025-07-10 02:40:26
- 1 file changed, 1 insertion(+)
-[2025-07-10 02:40:27] ERROR en git push origin main
-[2025-07-10 02:40:27] Código: 1
-[2025-07-10 02:40:27] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 02:40:27] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 03:00:05] Iniciando proceso de actualización...
-[2025-07-10 03:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-10 03:20:41] Iniciando proceso de actualización...
-[2025-07-10 03:20:41] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 03:20:41] EXITO: git add datos.csv
-[2025-07-10 03:20:41] Salida:
-[2025-07-10 03:20:41] EXITO: git commit -m Actualización automática 2025-07-10 03:20:41
-[2025-07-10 03:20:41] Salida: [main 078406c] Actualización automática 2025-07-10 03:20:41
- 1 file changed, 1 insertion(+)
-[2025-07-10 03:20:42] ERROR en git push origin main
-[2025-07-10 03:20:42] Código: 1
-[2025-07-10 03:20:42] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 03:20:42] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 03:40:08] Iniciando proceso de actualización...
-[2025-07-10 03:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 03:40:08] EXITO: git add datos.csv
-[2025-07-10 03:40:08] Salida:
-[2025-07-10 03:40:08] EXITO: git commit -m Actualización automática 2025-07-10 03:40:08
-[2025-07-10 03:40:08] Salida: [main 22cb82b] Actualización automática 2025-07-10 03:40:08
- 1 file changed, 1 insertion(+)
-[2025-07-10 03:40:09] ERROR en git push origin main
-[2025-07-10 03:40:09] Código: 1
-[2025-07-10 03:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 03:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 04:00:40] Iniciando proceso de actualización...
-[2025-07-10 04:00:40] No hay cambios en el archivo. Saliendo.
-[2025-07-10 04:20:07] Iniciando proceso de actualización...
-[2025-07-10 04:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 04:20:07] EXITO: git add datos.csv
-[2025-07-10 04:20:07] Salida:
-[2025-07-10 04:20:07] EXITO: git commit -m Actualización automática 2025-07-10 04:20:07
-[2025-07-10 04:20:07] Salida: [main 61c53a1] Actualización automática 2025-07-10 04:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 04:20:08] ERROR en git push origin main
-[2025-07-10 04:20:08] Código: 1
-[2025-07-10 04:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 04:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 04:40:08] Iniciando proceso de actualización...
-[2025-07-10 04:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 04:40:08] EXITO: git add datos.csv
-[2025-07-10 04:40:08] Salida:
-[2025-07-10 04:40:08] EXITO: git commit -m Actualización automática 2025-07-10 04:40:08
-[2025-07-10 04:40:08] Salida: [main 77c3788] Actualización automática 2025-07-10 04:40:08
- 1 file changed, 1 insertion(+)
-[2025-07-10 04:40:09] ERROR en git push origin main
-[2025-07-10 04:40:09] Código: 1
-[2025-07-10 04:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 04:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 05:00:08] Iniciando proceso de actualización...
-[2025-07-10 05:00:08] No hay cambios en el archivo. Saliendo.
-[2025-07-10 05:20:57] Iniciando proceso de actualización...
-[2025-07-10 05:20:57] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 05:20:57] EXITO: git add datos.csv
-[2025-07-10 05:20:57] Salida:
-[2025-07-10 05:20:57] EXITO: git commit -m Actualización automática 2025-07-10 05:20:57
-[2025-07-10 05:20:57] Salida: [main 8b2f819] Actualización automática 2025-07-10 05:20:57
- 1 file changed, 1 insertion(+)
-[2025-07-10 05:20:59] ERROR en git push origin main
-[2025-07-10 05:20:59] Código: 1
-[2025-07-10 05:20:59] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 05:20:59] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 05:40:26] Iniciando proceso de actualización...
-[2025-07-10 05:40:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 05:40:26] EXITO: git add datos.csv
-[2025-07-10 05:40:26] Salida:
-[2025-07-10 05:40:26] EXITO: git commit -m Actualización automática 2025-07-10 05:40:26
-[2025-07-10 05:40:26] Salida: [main fa478bb] Actualización automática 2025-07-10 05:40:26
- 1 file changed, 1 insertion(+)
-[2025-07-10 05:40:27] ERROR en git push origin main
-[2025-07-10 05:40:27] Código: 1
-[2025-07-10 05:40:27] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 05:40:27] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 06:00:08] Iniciando proceso de actualización...
-[2025-07-10 06:00:08] No hay cambios en el archivo. Saliendo.
-[2025-07-10 06:20:40] Iniciando proceso de actualización...
-[2025-07-10 06:20:40] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 06:20:40] EXITO: git add datos.csv
-[2025-07-10 06:20:40] Salida:
-[2025-07-10 06:20:40] EXITO: git commit -m Actualización automática 2025-07-10 06:20:40
-[2025-07-10 06:20:40] Salida: [main 7d0dfdc] Actualización automática 2025-07-10 06:20:40
- 1 file changed, 1 insertion(+)
-[2025-07-10 06:20:41] ERROR en git push origin main
-[2025-07-10 06:20:41] Código: 1
-[2025-07-10 06:20:41] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 06:20:41] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 06:40:42] Iniciando proceso de actualización...
-[2025-07-10 06:40:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 06:40:42] EXITO: git add datos.csv
-[2025-07-10 06:40:42] Salida:
-[2025-07-10 06:40:42] EXITO: git commit -m Actualización automática 2025-07-10 06:40:42
-[2025-07-10 06:40:42] Salida: [main 25dc965] Actualización automática 2025-07-10 06:40:42
- 1 file changed, 1 insertion(+)
-[2025-07-10 06:40:44] ERROR en git push origin main
-[2025-07-10 06:40:44] Código: 1
-[2025-07-10 06:40:44] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 06:40:44] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 07:00:42] Iniciando proceso de actualización...
-[2025-07-10 07:00:42] No hay cambios en el archivo. Saliendo.
-[2025-07-10 07:20:26] Iniciando proceso de actualización...
-[2025-07-10 07:20:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 07:20:26] EXITO: git add datos.csv
-[2025-07-10 07:20:26] Salida:
-[2025-07-10 07:20:26] EXITO: git commit -m Actualización automática 2025-07-10 07:20:26
-[2025-07-10 07:20:26] Salida: [main f363208] Actualización automática 2025-07-10 07:20:26
- 1 file changed, 1 insertion(+)
-[2025-07-10 07:20:28] ERROR en git push origin main
-[2025-07-10 07:20:28] Código: 1
-[2025-07-10 07:20:28] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 07:20:28] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 07:40:08] Iniciando proceso de actualización...
-[2025-07-10 07:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 07:40:08] EXITO: git add datos.csv
-[2025-07-10 07:40:08] Salida:
-[2025-07-10 07:40:08] EXITO: git commit -m Actualización automática 2025-07-10 07:40:08
-[2025-07-10 07:40:08] Salida: [main a524bad] Actualización automática 2025-07-10 07:40:08
- 1 file changed, 1 insertion(+)
-[2025-07-10 07:40:09] ERROR en git push origin main
-[2025-07-10 07:40:09] Código: 1
-[2025-07-10 07:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 07:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 08:00:45] Iniciando proceso de actualización...
-[2025-07-10 08:00:45] No hay cambios en el archivo. Saliendo.
-[2025-07-10 08:20:07] Iniciando proceso de actualización...
-[2025-07-10 08:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 08:20:07] EXITO: git add datos.csv
-[2025-07-10 08:20:07] Salida:
-[2025-07-10 08:20:08] EXITO: git commit -m Actualización automática 2025-07-10 08:20:07
-[2025-07-10 08:20:08] Salida: [main 2d6895d] Actualización automática 2025-07-10 08:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 08:20:09] ERROR en git push origin main
-[2025-07-10 08:20:09] Código: 1
-[2025-07-10 08:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 08:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 08:40:07] Iniciando proceso de actualización...
-[2025-07-10 08:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 08:40:07] EXITO: git add datos.csv
-[2025-07-10 08:40:07] Salida:
-[2025-07-10 08:40:07] EXITO: git commit -m Actualización automática 2025-07-10 08:40:07
-[2025-07-10 08:40:07] Salida: [main 73cf7c7] Actualización automática 2025-07-10 08:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 08:40:09] ERROR en git push origin main
-[2025-07-10 08:40:09] Código: 1
-[2025-07-10 08:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 08:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 09:00:43] Iniciando proceso de actualización...
-[2025-07-10 09:00:43] No hay cambios en el archivo. Saliendo.
-[2025-07-10 09:20:07] Iniciando proceso de actualización...
-[2025-07-10 09:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 09:20:07] EXITO: git add datos.csv
-[2025-07-10 09:20:07] Salida:
-[2025-07-10 09:20:08] EXITO: git commit -m Actualización automática 2025-07-10 09:20:07
-[2025-07-10 09:20:08] Salida: [main dd11a57] Actualización automática 2025-07-10 09:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 09:20:09] ERROR en git push origin main
-[2025-07-10 09:20:09] Código: 1
-[2025-07-10 09:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 09:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 09:40:07] Iniciando proceso de actualización...
-[2025-07-10 09:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 09:40:07] EXITO: git add datos.csv
-[2025-07-10 09:40:07] Salida:
-[2025-07-10 09:40:07] EXITO: git commit -m Actualización automática 2025-07-10 09:40:07
-[2025-07-10 09:40:07] Salida: [main f2fc0f4] Actualización automática 2025-07-10 09:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 09:40:09] ERROR en git push origin main
-[2025-07-10 09:40:09] Código: 1
-[2025-07-10 09:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 09:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 10:00:06] Iniciando proceso de actualización...
-[2025-07-10 10:00:06] No hay cambios en el archivo. Saliendo.
-[2025-07-10 10:20:07] Iniciando proceso de actualización...
-[2025-07-10 10:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 10:20:07] EXITO: git add datos.csv
-[2025-07-10 10:20:07] Salida:
-[2025-07-10 10:20:07] EXITO: git commit -m Actualización automática 2025-07-10 10:20:07
-[2025-07-10 10:20:07] Salida: [main 57536de] Actualización automática 2025-07-10 10:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 10:20:09] ERROR en git push origin main
-[2025-07-10 10:20:09] Código: 1
-[2025-07-10 10:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 10:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 10:40:08] Iniciando proceso de actualización...
-[2025-07-10 10:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 10:40:08] EXITO: git add datos.csv
-[2025-07-10 10:40:08] Salida:
-[2025-07-10 10:40:08] EXITO: git commit -m Actualización automática 2025-07-10 10:40:08
-[2025-07-10 10:40:08] Salida: [main 7afa097] Actualización automática 2025-07-10 10:40:08
- 1 file changed, 1 insertion(+)
-[2025-07-10 10:40:09] ERROR en git push origin main
-[2025-07-10 10:40:09] Código: 1
-[2025-07-10 10:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 10:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 11:00:41] Iniciando proceso de actualización...
-[2025-07-10 11:00:41] No hay cambios en el archivo. Saliendo.
-[2025-07-10 11:20:07] Iniciando proceso de actualización...
-[2025-07-10 11:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 11:20:07] EXITO: git add datos.csv
-[2025-07-10 11:20:07] Salida:
-[2025-07-10 11:20:07] EXITO: git commit -m Actualización automática 2025-07-10 11:20:07
-[2025-07-10 11:20:07] Salida: [main a803344] Actualización automática 2025-07-10 11:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 11:20:08] ERROR en git push origin main
-[2025-07-10 11:20:08] Código: 1
-[2025-07-10 11:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 11:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 11:40:06] Iniciando proceso de actualización...
-[2025-07-10 11:40:06] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 11:40:07] EXITO: git add datos.csv
-[2025-07-10 11:40:07] Salida:
-[2025-07-10 11:40:07] EXITO: git commit -m Actualización automática 2025-07-10 11:40:06
-[2025-07-10 11:40:07] Salida: [main 9eb2545] Actualización automática 2025-07-10 11:40:06
- 1 file changed, 1 insertion(+)
-[2025-07-10 11:40:08] ERROR en git push origin main
-[2025-07-10 11:40:08] Código: 1
-[2025-07-10 11:40:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 11:40:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 12:00:05] Iniciando proceso de actualización...
-[2025-07-10 12:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-10 12:20:08] Iniciando proceso de actualización...
-[2025-07-10 12:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 12:20:08] EXITO: git add datos.csv
-[2025-07-10 12:20:08] Salida:
-[2025-07-10 12:20:08] EXITO: git commit -m Actualización automática 2025-07-10 12:20:08
-[2025-07-10 12:20:08] Salida: [main 83c4c5a] Actualización automática 2025-07-10 12:20:08
- 1 file changed, 1 insertion(+)
-[2025-07-10 12:20:09] ERROR en git push origin main
-[2025-07-10 12:20:09] Código: 1
-[2025-07-10 12:20:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 12:20:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 12:40:07] Iniciando proceso de actualización...
-[2025-07-10 12:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 12:40:07] EXITO: git add datos.csv
-[2025-07-10 12:40:07] Salida:
-[2025-07-10 12:40:07] EXITO: git commit -m Actualización automática 2025-07-10 12:40:07
-[2025-07-10 12:40:07] Salida: [main 5328fca] Actualización automática 2025-07-10 12:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 12:40:08] ERROR en git push origin main
-[2025-07-10 12:40:08] Código: 1
-[2025-07-10 12:40:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 12:40:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 13:00:05] Iniciando proceso de actualización...
-[2025-07-10 13:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-10 13:20:07] Iniciando proceso de actualización...
-[2025-07-10 13:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 13:20:07] EXITO: git add datos.csv
-[2025-07-10 13:20:07] Salida:
-[2025-07-10 13:20:07] EXITO: git commit -m Actualización automática 2025-07-10 13:20:07
-[2025-07-10 13:20:07] Salida: [main f8e4dcc] Actualización automática 2025-07-10 13:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 13:20:08] ERROR en git push origin main
-[2025-07-10 13:20:08] Código: 1
-[2025-07-10 13:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 13:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 13:40:07] Iniciando proceso de actualización...
-[2025-07-10 13:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 13:40:07] EXITO: git add datos.csv
-[2025-07-10 13:40:07] Salida:
-[2025-07-10 13:40:07] EXITO: git commit -m Actualización automática 2025-07-10 13:40:07
-[2025-07-10 13:40:07] Salida: [main ad68864] Actualización automática 2025-07-10 13:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 13:40:09] ERROR en git push origin main
-[2025-07-10 13:40:09] Código: 1
-[2025-07-10 13:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 13:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 14:00:05] Iniciando proceso de actualización...
-[2025-07-10 14:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-10 14:20:07] Iniciando proceso de actualización...
-[2025-07-10 14:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 14:20:07] EXITO: git add datos.csv
-[2025-07-10 14:20:07] Salida:
-[2025-07-10 14:20:07] EXITO: git commit -m Actualización automática 2025-07-10 14:20:07
-[2025-07-10 14:20:07] Salida: [main 0f3b66e] Actualización automática 2025-07-10 14:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 14:20:08] ERROR en git push origin main
-[2025-07-10 14:20:08] Código: 1
-[2025-07-10 14:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 14:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 14:40:07] Iniciando proceso de actualización...
-[2025-07-10 14:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 14:40:07] EXITO: git add datos.csv
-[2025-07-10 14:40:07] Salida:
-[2025-07-10 14:40:07] EXITO: git commit -m Actualización automática 2025-07-10 14:40:07
-[2025-07-10 14:40:07] Salida: [main 056640b] Actualización automática 2025-07-10 14:40:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 14:40:08] ERROR en git push origin main
-[2025-07-10 14:40:08] Código: 1
-[2025-07-10 14:40:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 14:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 15:00:05] Iniciando proceso de actualización...
-[2025-07-10 15:00:05] No hay cambios en el archivo. Saliendo.
-[2025-07-10 15:20:07] Iniciando proceso de actualización...
-[2025-07-10 15:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 15:20:07] EXITO: git add datos.csv
-[2025-07-10 15:20:07] Salida:
-[2025-07-10 15:20:07] EXITO: git commit -m Actualización automática 2025-07-10 15:20:07
-[2025-07-10 15:20:07] Salida: [main 373dd45] Actualización automática 2025-07-10 15:20:07
- 1 file changed, 1 insertion(+)
-[2025-07-10 15:20:08] ERROR en git push origin main
-[2025-07-10 15:20:08] Código: 1
-[2025-07-10 15:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 15:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 15:40:07] Iniciando proceso de actualización...
-[2025-07-10 15:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 15:40:08] EXITO: git add datos.csv
-[2025-07-10 15:40:08] Salida:
-[2025-07-10 15:40:08] EXITO: git commit -m Actualización automática 2025-07-10 15:40:08
-[2025-07-10 15:40:08] Salida: [main 15c06e6] Actualización automática 2025-07-10 15:40:08
- 1 file changed, 1 insertion(+)
-[2025-07-10 15:40:09] ERROR en git push origin main
-[2025-07-10 15:40:09] Código: 1
-[2025-07-10 15:40:09] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 15:40:09] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 16:00:26] Iniciando proceso de actualización...
-[2025-07-10 16:00:26] No hay cambios en el archivo. Saliendo.
-[2025-07-10 16:20:06] Iniciando proceso de actualización...
-[2025-07-10 16:20:06] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv → /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 16:20:07] EXITO: git add datos.csv
-[2025-07-10 16:20:07] Salida:
-[2025-07-10 16:20:07] EXITO: git commit -m Actualización automática 2025-07-10 16:20:06
-[2025-07-10 16:20:07] Salida: [main f5232b9] Actualización automática 2025-07-10 16:20:06
- 1 file changed, 1 insertion(+)
-[2025-07-10 16:20:08] ERROR en git push origin main
-[2025-07-10 16:20:08] Código: 1
-[2025-07-10 16:20:08] Error: To https://github.com/mdeoca/Meteo.git
- ! [rejected]        main -> main (fetch first)
-error: falló el empuje de algunas referencias a 'https://github.com/mdeoca/Meteo.git'
-ayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que
-ayuda: no existe localmente. Esto es causado usualmente por otro repositorio
-ayuda: empujando a la misma ref. Quizás quieras integrar primero los cambios
-ayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.
-ayuda: Mira 'Notes about fast-forwards' en 'git push --help' para detalles.
-[2025-07-10 16:20:08] ERROR CRÍTICO: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
-[2025-07-10 17:00:06] === Inicio del proceso ===
-[2025-07-10 17:00:06] El archivo no tiene cambios reales. Saliendo.
-[main 8a58f68] Actualización: 2025-07-10 17:20:25
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   7e849d9..8a58f68  main -> main
-[2025-07-10 17:20:25] === Inicio del proceso ===
-[2025-07-10 17:20:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 17:20:28] === Actualización completada con éxito ===
-[main 223783a] Actualización: 2025-07-10 17:40:07
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   8a58f68..223783a  main -> main
-[2025-07-10 17:40:07] === Inicio del proceso ===
-[2025-07-10 17:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 17:40:10] === Actualización completada con éxito ===
-[2025-07-10 18:00:08] === Inicio del proceso ===
-[2025-07-10 18:00:08] El archivo no tiene cambios reales. Saliendo.
-[main bc2f332] Actualización: 2025-07-10 18:20:08
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   223783a..bc2f332  main -> main
-[2025-07-10 18:20:07] === Inicio del proceso ===
-[2025-07-10 18:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 18:20:11] === Actualización completada con éxito ===
-[main 08889fd] Actualización: 2025-07-10 18:40:06
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   bc2f332..08889fd  main -> main
-[2025-07-10 18:40:06] === Inicio del proceso ===
-[2025-07-10 18:40:06] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 18:40:10] === Actualización completada con éxito ===
-[2025-07-10 19:00:05] === Inicio del proceso ===
-[2025-07-10 19:00:05] El archivo no tiene cambios reales. Saliendo.
-[main 0faf770] Actualización: 2025-07-10 19:20:52
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   08889fd..0faf770  main -> main
-[2025-07-10 19:20:52] === Inicio del proceso ===
-[2025-07-10 19:20:52] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 19:20:55] === Actualización completada con éxito ===
-[main 8baef20] Actualización: 2025-07-10 19:40:07
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   0faf770..8baef20  main -> main
-[2025-07-10 19:40:07] === Inicio del proceso ===
-[2025-07-10 19:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 19:40:10] === Actualización completada con éxito ===
-[2025-07-10 20:00:05] === Inicio del proceso ===
-[2025-07-10 20:00:05] El archivo no tiene cambios reales. Saliendo.
-[main 5e7f665] Actualización: 2025-07-10 20:20:57
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   8baef20..5e7f665  main -> main
-[2025-07-10 20:20:57] === Inicio del proceso ===
-[2025-07-10 20:20:57] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 20:21:00] === Actualización completada con éxito ===
-[main 312e877] Actualización: 2025-07-10 20:40:45
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   5e7f665..312e877  main -> main
-[2025-07-10 20:40:45] === Inicio del proceso ===
-[2025-07-10 20:40:45] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 20:40:48] === Actualización completada con éxito ===
-[2025-07-10 21:00:07] === Inicio del proceso ===
-[2025-07-10 21:00:07] El archivo no tiene cambios reales. Saliendo.
-[main 9d1ce2d] Actualización: 2025-07-10 21:20:07
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   312e877..9d1ce2d  main -> main
-[2025-07-10 21:20:07] === Inicio del proceso ===
-[2025-07-10 21:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 21:20:10] === Actualización completada con éxito ===
-[main 1df5a34] Actualización: 2025-07-10 21:40:57
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   9d1ce2d..1df5a34  main -> main
-[2025-07-10 21:40:57] === Inicio del proceso ===
-[2025-07-10 21:40:57] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 21:41:00] === Actualización completada con éxito ===
-[2025-07-10 22:00:39] === Inicio del proceso ===
-[2025-07-10 22:00:39] El archivo no tiene cambios reales. Saliendo.
-[main 1fa4619] Actualización: 2025-07-10 22:20:46
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   1df5a34..1fa4619  main -> main
-[2025-07-10 22:20:46] === Inicio del proceso ===
-[2025-07-10 22:20:46] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 22:20:50] === Actualización completada con éxito ===
-[main 0781bfa] Actualización: 2025-07-10 22:40:58
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   1fa4619..0781bfa  main -> main
-[2025-07-10 22:40:57] === Inicio del proceso ===
-[2025-07-10 22:40:58] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 22:41:01] === Actualización completada con éxito ===
-[2025-07-10 23:00:59] === Inicio del proceso ===
-[2025-07-10 23:00:59] El archivo no tiene cambios reales. Saliendo.
-[main e292172] Actualización: 2025-07-10 23:20:41
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   0781bfa..e292172  main -> main
-[2025-07-10 23:20:41] === Inicio del proceso ===
-[2025-07-10 23:20:41] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 23:20:44] === Actualización completada con éxito ===
-[main cfcfd9b] Actualización: 2025-07-10 23:40:24
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   e292172..cfcfd9b  main -> main
-[2025-07-10 23:40:24] === Inicio del proceso ===
-[2025-07-10 23:40:24] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-10 23:40:28] === Actualización completada con éxito ===
-[2025-07-11 00:00:05] === Inicio del proceso ===
-[2025-07-11 00:00:05] El archivo no tiene cambios reales. Saliendo.
-[main b12122d] Actualización: 2025-07-11 00:20:25
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   cfcfd9b..b12122d  main -> main
-[2025-07-11 00:20:25] === Inicio del proceso ===
-[2025-07-11 00:20:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-11 00:20:28] === Actualización completada con éxito ===
-[main db9ea3d] Actualización: 2025-07-11 00:40:41
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   b12122d..db9ea3d  main -> main
-[2025-07-11 00:40:41] === Inicio del proceso ===
-[2025-07-11 00:40:41] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-11 00:40:45] === Actualización completada con éxito ===
-[2025-07-11 01:00:05] === Inicio del proceso ===
-[2025-07-11 01:00:05] El archivo no tiene cambios reales. Saliendo.
-[main 3b90ee5] Actualización: 2025-07-11 01:20:07
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   db9ea3d..3b90ee5  main -> main
-[2025-07-11 01:20:07] === Inicio del proceso ===
-[2025-07-11 01:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-11 01:20:11] === Actualización completada con éxito ===
-[main 734ef97] Actualización: 2025-07-11 01:40:07
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
-To https://github.com/mdeoca/Meteo.git
-   3b90ee5..734ef97  main -> main
-[2025-07-11 01:40:07] === Inicio del proceso ===
-[2025-07-11 01:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
-[2025-07-11 01:40:10] === Actualización completada con éxito ===
-[2025-07-11 02:00:42] === Inicio del proceso ===
-[2025-07-11 02:00:42] El archivo no tiene cambios reales. Saliendo.
-[main 9b3353e] Actualización: 2025-07-11 02:20:58
- 1 file changed, 1 insertion(+)
-La rama actual main está actualizada.
 To https://github.com/mdeoca/Meteo.git
    734ef97..9b3353e  main -> main
 [2025-07-11 02:20:58] === Inicio del proceso ===
@@ -2979,3 +1004,883 @@ error: por favor realiza un commit o un stash con ellos.
 [2025-07-13 09:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
 [2025-07-13 10:00:05] === Inicio del proceso ===
 [2025-07-13 10:00:05] El archivo no tiene cambios reales. Saliendo.
+[main aef21d8] Actualización: 2025-07-13 10:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 10:20:08] === Inicio del proceso ===
+[2025-07-13 10:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 10:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 6352d8d] Actualización: 2025-07-13 10:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 10:40:07] === Inicio del proceso ===
+[2025-07-13 10:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 10:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 11:00:07] === Inicio del proceso ===
+[2025-07-13 11:00:07] El archivo no tiene cambios reales. Saliendo.
+[main d26f6bd] Actualización: 2025-07-13 11:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 11:20:08] === Inicio del proceso ===
+[2025-07-13 11:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 11:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 688f33a] Actualización: 2025-07-13 11:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 11:40:07] === Inicio del proceso ===
+[2025-07-13 11:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 11:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 12:00:05] === Inicio del proceso ===
+[2025-07-13 12:00:05] El archivo no tiene cambios reales. Saliendo.
+[main c65b30e] Actualización: 2025-07-13 12:20:45
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 12:20:45] === Inicio del proceso ===
+[2025-07-13 12:20:45] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 12:20:45] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 8a5b930] Actualización: 2025-07-13 12:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 12:40:07] === Inicio del proceso ===
+[2025-07-13 12:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 12:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 13:00:05] === Inicio del proceso ===
+[2025-07-13 13:00:05] El archivo no tiene cambios reales. Saliendo.
+[main cfb8451] Actualización: 2025-07-13 13:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 13:20:07] === Inicio del proceso ===
+[2025-07-13 13:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 13:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 308e076] Actualización: 2025-07-13 13:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 13:40:07] === Inicio del proceso ===
+[2025-07-13 13:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 13:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 14:00:08] === Inicio del proceso ===
+[2025-07-13 14:00:08] El archivo no tiene cambios reales. Saliendo.
+[main 02f5773] Actualización: 2025-07-13 14:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 14:20:07] === Inicio del proceso ===
+[2025-07-13 14:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 14:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 6b1e905] Actualización: 2025-07-13 14:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 14:40:07] === Inicio del proceso ===
+[2025-07-13 14:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 14:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 15:00:05] === Inicio del proceso ===
+[2025-07-13 15:00:05] El archivo no tiene cambios reales. Saliendo.
+[main 75e48ac] Actualización: 2025-07-13 15:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 15:20:07] === Inicio del proceso ===
+[2025-07-13 15:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 15:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main f562622] Actualización: 2025-07-13 15:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 15:40:07] === Inicio del proceso ===
+[2025-07-13 15:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 15:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 16:00:43] === Inicio del proceso ===
+[2025-07-13 16:00:43] El archivo no tiene cambios reales. Saliendo.
+[main 916f1d4] Actualización: 2025-07-13 16:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 16:20:07] === Inicio del proceso ===
+[2025-07-13 16:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 16:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 65aedba] Actualización: 2025-07-13 16:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 16:40:07] === Inicio del proceso ===
+[2025-07-13 16:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 16:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 17:00:05] === Inicio del proceso ===
+[2025-07-13 17:00:05] El archivo no tiene cambios reales. Saliendo.
+[main a6ad2b5] Actualización: 2025-07-13 17:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 17:20:08] === Inicio del proceso ===
+[2025-07-13 17:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 17:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 5509c74] Actualización: 2025-07-13 17:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 17:40:07] === Inicio del proceso ===
+[2025-07-13 17:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 17:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 18:00:05] === Inicio del proceso ===
+[2025-07-13 18:00:05] El archivo no tiene cambios reales. Saliendo.
+[main fd86bb5] Actualización: 2025-07-13 18:20:13
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 18:20:12] === Inicio del proceso ===
+[2025-07-13 18:20:12] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 18:20:13] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 4e60622] Actualización: 2025-07-13 18:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 18:40:07] === Inicio del proceso ===
+[2025-07-13 18:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 18:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 19:00:04] === Inicio del proceso ===
+[2025-07-13 19:00:04] El archivo no tiene cambios reales. Saliendo.
+[main 5b39975] Actualización: 2025-07-13 19:20:09
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 19:20:09] === Inicio del proceso ===
+[2025-07-13 19:20:09] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 19:20:10] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main cde80a6] Actualización: 2025-07-13 19:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 19:40:08] === Inicio del proceso ===
+[2025-07-13 19:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 19:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 20:00:05] === Inicio del proceso ===
+[2025-07-13 20:00:05] El archivo no tiene cambios reales. Saliendo.
+[main 175ec6f] Actualización: 2025-07-13 20:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 20:20:08] === Inicio del proceso ===
+[2025-07-13 20:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 20:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 8535924] Actualización: 2025-07-13 20:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 20:40:07] === Inicio del proceso ===
+[2025-07-13 20:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 20:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 21:00:27] === Inicio del proceso ===
+[2025-07-13 21:00:27] El archivo no tiene cambios reales. Saliendo.
+[main 5e95b03] Actualización: 2025-07-13 21:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 21:20:07] === Inicio del proceso ===
+[2025-07-13 21:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 21:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 5cae003] Actualización: 2025-07-13 21:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 21:40:08] === Inicio del proceso ===
+[2025-07-13 21:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 21:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 22:00:05] === Inicio del proceso ===
+[2025-07-13 22:00:05] El archivo no tiene cambios reales. Saliendo.
+[main 385ec28] Actualización: 2025-07-13 22:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 22:20:07] === Inicio del proceso ===
+[2025-07-13 22:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 22:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 44550d6] Actualización: 2025-07-13 22:40:47
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 22:40:47] === Inicio del proceso ===
+[2025-07-13 22:40:47] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 22:40:47] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-13 23:00:41] === Inicio del proceso ===
+[2025-07-13 23:00:41] El archivo no tiene cambios reales. Saliendo.
+[main 533699e] Actualización: 2025-07-13 23:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 23:20:07] === Inicio del proceso ===
+[2025-07-13 23:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 23:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main a9e52e4] Actualización: 2025-07-13 23:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-13 23:40:08] === Inicio del proceso ===
+[2025-07-13 23:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-13 23:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 00:01:38] === Inicio del proceso ===
+[2025-07-14 00:01:38] El archivo no tiene cambios reales. Saliendo.
+[main e135e87] Actualización: 2025-07-14 00:20:42
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 00:20:42] === Inicio del proceso ===
+[2025-07-14 00:20:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 00:20:42] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main f0dd830] Actualización: 2025-07-14 00:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 00:40:07] === Inicio del proceso ===
+[2025-07-14 00:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 00:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 01:00:41] === Inicio del proceso ===
+[2025-07-14 01:00:41] El archivo no tiene cambios reales. Saliendo.
+[main d98120c] Actualización: 2025-07-14 01:20:26
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 01:20:26] === Inicio del proceso ===
+[2025-07-14 01:20:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 01:20:26] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main a9dc5aa] Actualización: 2025-07-14 01:40:42
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 01:40:42] === Inicio del proceso ===
+[2025-07-14 01:40:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 01:40:42] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 02:00:05] === Inicio del proceso ===
+[2025-07-14 02:00:05] El archivo no tiene cambios reales. Saliendo.
+[main 38a7ce7] Actualización: 2025-07-14 02:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 02:20:07] === Inicio del proceso ===
+[2025-07-14 02:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 02:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 815c289] Actualización: 2025-07-14 02:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 02:40:07] === Inicio del proceso ===
+[2025-07-14 02:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 02:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 03:00:08] === Inicio del proceso ===
+[2025-07-14 03:00:08] El archivo no tiene cambios reales. Saliendo.
+[main 897c166] Actualización: 2025-07-14 03:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 03:20:07] === Inicio del proceso ===
+[2025-07-14 03:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 03:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main e760245] Actualización: 2025-07-14 03:40:25
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 03:40:25] === Inicio del proceso ===
+[2025-07-14 03:40:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 03:40:25] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 04:00:45] === Inicio del proceso ===
+[2025-07-14 04:00:45] El archivo no tiene cambios reales. Saliendo.
+[main c3cb94f] Actualización: 2025-07-14 04:21:01
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 04:21:01] === Inicio del proceso ===
+[2025-07-14 04:21:01] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 04:21:01] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main a5d6db5] Actualización: 2025-07-14 04:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 04:40:07] === Inicio del proceso ===
+[2025-07-14 04:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 04:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 05:00:41] === Inicio del proceso ===
+[2025-07-14 05:00:41] El archivo no tiene cambios reales. Saliendo.
+[main 49b3150] Actualización: 2025-07-14 05:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 05:20:07] === Inicio del proceso ===
+[2025-07-14 05:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 05:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 62c1be6] Actualización: 2025-07-14 05:40:06
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 05:40:06] === Inicio del proceso ===
+[2025-07-14 05:40:06] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 05:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 06:00:41] === Inicio del proceso ===
+[2025-07-14 06:00:41] El archivo no tiene cambios reales. Saliendo.
+[main 57b5335] Actualización: 2025-07-14 06:20:25
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 06:20:25] === Inicio del proceso ===
+[2025-07-14 06:20:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 06:20:25] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 8945172] Actualización: 2025-07-14 06:40:42
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 06:40:42] === Inicio del proceso ===
+[2025-07-14 06:40:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 06:40:43] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 07:00:05] === Inicio del proceso ===
+[2025-07-14 07:00:05] El archivo no tiene cambios reales. Saliendo.
+[main eedf19e] Actualización: 2025-07-14 07:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 07:20:07] === Inicio del proceso ===
+[2025-07-14 07:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 07:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 4b1b6af] Actualización: 2025-07-14 07:40:59
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 07:40:58] === Inicio del proceso ===
+[2025-07-14 07:40:59] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 07:40:59] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 08:00:30] === Inicio del proceso ===
+[2025-07-14 08:00:30] El archivo no tiene cambios reales. Saliendo.
+[main 1664d40] Actualización: 2025-07-14 08:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 08:20:07] === Inicio del proceso ===
+[2025-07-14 08:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 08:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 4c874df] Actualización: 2025-07-14 08:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 08:40:07] === Inicio del proceso ===
+[2025-07-14 08:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 08:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 09:00:41] === Inicio del proceso ===
+[2025-07-14 09:00:41] El archivo no tiene cambios reales. Saliendo.
+[main 4641543] Actualización: 2025-07-14 09:20:09
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 09:20:09] === Inicio del proceso ===
+[2025-07-14 09:20:09] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 09:20:09] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main af2e6aa] Actualización: 2025-07-14 09:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 09:40:08] === Inicio del proceso ===
+[2025-07-14 09:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 09:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 10:00:07] === Inicio del proceso ===
+[2025-07-14 10:00:07] El archivo no tiene cambios reales. Saliendo.
+[main 0837d29] Actualización: 2025-07-14 10:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 10:20:08] === Inicio del proceso ===
+[2025-07-14 10:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 10:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 35cc671] Actualización: 2025-07-14 10:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 10:40:08] === Inicio del proceso ===
+[2025-07-14 10:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 10:40:09] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 11:00:08] === Inicio del proceso ===
+[2025-07-14 11:00:08] El archivo no tiene cambios reales. Saliendo.
+[main fce5f3b] Actualización: 2025-07-14 11:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 11:20:08] === Inicio del proceso ===
+[2025-07-14 11:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 11:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 9d9d65b] Actualización: 2025-07-14 11:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 11:40:08] === Inicio del proceso ===
+[2025-07-14 11:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 11:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 12:00:09] === Inicio del proceso ===
+[2025-07-14 12:00:09] El archivo no tiene cambios reales. Saliendo.
+[main 686ebec] Actualización: 2025-07-14 12:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 12:20:07] === Inicio del proceso ===
+[2025-07-14 12:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 12:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 142a88a] Actualización: 2025-07-14 12:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 12:40:07] === Inicio del proceso ===
+[2025-07-14 12:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 12:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 13:00:25] === Inicio del proceso ===
+[2025-07-14 13:00:25] El archivo no tiene cambios reales. Saliendo.
+[main ec0051e] Actualización: 2025-07-14 13:20:26
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 13:20:26] === Inicio del proceso ===
+[2025-07-14 13:20:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 13:20:26] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 1f896bb] Actualización: 2025-07-14 13:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 13:40:07] === Inicio del proceso ===
+[2025-07-14 13:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 13:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 14:00:41] === Inicio del proceso ===
+[2025-07-14 14:00:41] El archivo no tiene cambios reales. Saliendo.
+[main dced66a] Actualización: 2025-07-14 14:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 14:20:07] === Inicio del proceso ===
+[2025-07-14 14:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 14:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main b7f7d4d] Actualización: 2025-07-14 14:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 14:40:08] === Inicio del proceso ===
+[2025-07-14 14:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 14:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 15:00:41] === Inicio del proceso ===
+[2025-07-14 15:00:41] El archivo no tiene cambios reales. Saliendo.
+[main 74c902d] Actualización: 2025-07-14 15:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 15:20:08] === Inicio del proceso ===
+[2025-07-14 15:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 15:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main e99debd] Actualización: 2025-07-14 15:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 15:40:07] === Inicio del proceso ===
+[2025-07-14 15:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 15:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 16:00:05] === Inicio del proceso ===
+[2025-07-14 16:00:05] El archivo no tiene cambios reales. Saliendo.
+[main d71d821] Actualización: 2025-07-14 16:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 16:20:07] === Inicio del proceso ===
+[2025-07-14 16:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 16:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main d3dadb8] Actualización: 2025-07-14 16:40:47
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 16:40:46] === Inicio del proceso ===
+[2025-07-14 16:40:46] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 16:40:47] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 17:00:58] === Inicio del proceso ===
+[2025-07-14 17:00:58] El archivo no tiene cambios reales. Saliendo.
+[main 8bdf2ba] Actualización: 2025-07-14 17:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 17:20:07] === Inicio del proceso ===
+[2025-07-14 17:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 17:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 67263d6] Actualización: 2025-07-14 17:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 17:40:08] === Inicio del proceso ===
+[2025-07-14 17:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 17:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 18:00:59] === Inicio del proceso ===
+[2025-07-14 18:00:59] El archivo no tiene cambios reales. Saliendo.
+[main ac3ff90] Actualización: 2025-07-14 18:20:09
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 18:20:09] === Inicio del proceso ===
+[2025-07-14 18:20:09] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 18:20:09] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main b8be00f] Actualización: 2025-07-14 18:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 18:40:07] === Inicio del proceso ===
+[2025-07-14 18:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 18:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 19:00:57] === Inicio del proceso ===
+[2025-07-14 19:00:57] El archivo no tiene cambios reales. Saliendo.
+[main e6eaf35] Actualización: 2025-07-14 19:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 19:20:07] === Inicio del proceso ===
+[2025-07-14 19:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 19:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main ec04ab1] Actualización: 2025-07-14 19:40:25
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 19:40:25] === Inicio del proceso ===
+[2025-07-14 19:40:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 19:40:25] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 20:00:05] === Inicio del proceso ===
+[2025-07-14 20:00:05] El archivo no tiene cambios reales. Saliendo.
+[main 9ebed76] Actualización: 2025-07-14 20:20:42
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 20:20:41] === Inicio del proceso ===
+[2025-07-14 20:20:41] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 20:20:42] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main d9b7fa0] Actualización: 2025-07-14 20:40:50
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 20:40:50] === Inicio del proceso ===
+[2025-07-14 20:40:50] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 20:40:51] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 21:00:41] === Inicio del proceso ===
+[2025-07-14 21:00:41] El archivo no tiene cambios reales. Saliendo.
+[main f7edff2] Actualización: 2025-07-14 21:21:02
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 21:21:02] === Inicio del proceso ===
+[2025-07-14 21:21:02] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 21:21:02] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main cd4494b] Actualización: 2025-07-14 21:40:58
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 21:40:58] === Inicio del proceso ===
+[2025-07-14 21:40:58] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 21:40:58] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 22:00:08] === Inicio del proceso ===
+[2025-07-14 22:00:08] El archivo no tiene cambios reales. Saliendo.
+[main 7b2b364] Actualización: 2025-07-14 22:20:46
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 22:20:46] === Inicio del proceso ===
+[2025-07-14 22:20:46] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 22:20:46] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main b4ae04b] Actualización: 2025-07-14 22:40:57
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 22:40:57] === Inicio del proceso ===
+[2025-07-14 22:40:57] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 22:40:57] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-14 23:00:42] === Inicio del proceso ===
+[2025-07-14 23:00:42] El archivo no tiene cambios reales. Saliendo.
+[main dff39e0] Actualización: 2025-07-14 23:20:42
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 23:20:42] === Inicio del proceso ===
+[2025-07-14 23:20:42] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 23:20:42] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 22726d6] Actualización: 2025-07-14 23:40:40
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-14 23:40:40] === Inicio del proceso ===
+[2025-07-14 23:40:40] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-14 23:40:40] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 00:00:10] === Inicio del proceso ===
+[2025-07-15 00:00:10] El archivo no tiene cambios reales. Saliendo.
+[main f671e7b] Actualización: 2025-07-15 00:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 00:20:08] === Inicio del proceso ===
+[2025-07-15 00:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 00:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 58965ed] Actualización: 2025-07-15 00:40:41
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 00:40:41] === Inicio del proceso ===
+[2025-07-15 00:40:41] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 00:40:41] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 01:00:05] === Inicio del proceso ===
+[2025-07-15 01:00:05] El archivo no tiene cambios reales. Saliendo.
+[main f016ff3] Actualización: 2025-07-15 01:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 01:20:07] === Inicio del proceso ===
+[2025-07-15 01:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 01:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 7c60759] Actualización: 2025-07-15 01:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 01:40:07] === Inicio del proceso ===
+[2025-07-15 01:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 01:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 02:00:38] === Inicio del proceso ===
+[2025-07-15 02:00:38] El archivo no tiene cambios reales. Saliendo.
+[main 917f326] Actualización: 2025-07-15 02:20:24
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 02:20:24] === Inicio del proceso ===
+[2025-07-15 02:20:24] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 02:20:24] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main abb41aa] Actualización: 2025-07-15 02:40:25
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 02:40:25] === Inicio del proceso ===
+[2025-07-15 02:40:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 02:40:25] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 03:00:56] === Inicio del proceso ===
+[2025-07-15 03:00:56] El archivo no tiene cambios reales. Saliendo.
+[main 39873a6] Actualización: 2025-07-15 03:20:58
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 03:20:58] === Inicio del proceso ===
+[2025-07-15 03:20:58] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 03:20:58] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main ad76644] Actualización: 2025-07-15 03:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 03:40:08] === Inicio del proceso ===
+[2025-07-15 03:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 03:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 04:00:38] === Inicio del proceso ===
+[2025-07-15 04:00:38] El archivo no tiene cambios reales. Saliendo.
+[main 2ad1a77] Actualización: 2025-07-15 04:20:58
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 04:20:58] === Inicio del proceso ===
+[2025-07-15 04:20:58] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 04:20:58] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main b15452e] Actualización: 2025-07-15 04:40:25
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 04:40:25] === Inicio del proceso ===
+[2025-07-15 04:40:25] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 04:40:25] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 05:00:05] === Inicio del proceso ===
+[2025-07-15 05:00:05] El archivo no tiene cambios reales. Saliendo.
+[main 63256cf] Actualización: 2025-07-15 05:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 05:20:07] === Inicio del proceso ===
+[2025-07-15 05:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 05:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 7550586] Actualización: 2025-07-15 05:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 05:40:06] === Inicio del proceso ===
+[2025-07-15 05:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 05:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 06:00:42] === Inicio del proceso ===
+[2025-07-15 06:00:42] El archivo no tiene cambios reales. Saliendo.
+[main 34ef5e3] Actualización: 2025-07-15 06:20:57
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 06:20:57] === Inicio del proceso ===
+[2025-07-15 06:20:57] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 06:20:57] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 91b9dd6] Actualización: 2025-07-15 06:40:47
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 06:40:47] === Inicio del proceso ===
+[2025-07-15 06:40:47] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 06:40:47] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 07:00:43] === Inicio del proceso ===
+[2025-07-15 07:00:43] El archivo no tiene cambios reales. Saliendo.
+[main 7a306c4] Actualización: 2025-07-15 07:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 07:20:07] === Inicio del proceso ===
+[2025-07-15 07:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 07:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main a1eb9ed] Actualización: 2025-07-15 07:40:24
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 07:40:24] === Inicio del proceso ===
+[2025-07-15 07:40:24] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 07:40:24] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 08:00:05] === Inicio del proceso ===
+[2025-07-15 08:00:05] El archivo no tiene cambios reales. Saliendo.
+[main d46c6de] Actualización: 2025-07-15 08:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 08:20:08] === Inicio del proceso ===
+[2025-07-15 08:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 08:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 252c4a3] Actualización: 2025-07-15 08:40:16
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 08:40:16] === Inicio del proceso ===
+[2025-07-15 08:40:16] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 08:40:16] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 09:00:43] === Inicio del proceso ===
+[2025-07-15 09:00:43] El archivo no tiene cambios reales. Saliendo.
+[main 6484b6b] Actualización: 2025-07-15 09:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 09:20:08] === Inicio del proceso ===
+[2025-07-15 09:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 09:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 426d65f] Actualización: 2025-07-15 09:40:09
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 09:40:09] === Inicio del proceso ===
+[2025-07-15 09:40:09] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 09:40:09] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 10:00:40] === Inicio del proceso ===
+[2025-07-15 10:00:40] El archivo no tiene cambios reales. Saliendo.
+[main ccad5c2] Actualización: 2025-07-15 10:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 10:20:07] === Inicio del proceso ===
+[2025-07-15 10:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 10:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main b65777f] Actualización: 2025-07-15 10:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 10:40:08] === Inicio del proceso ===
+[2025-07-15 10:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 10:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 11:00:40] === Inicio del proceso ===
+[2025-07-15 11:00:40] El archivo no tiene cambios reales. Saliendo.
+[main 6b44ab9] Actualización: 2025-07-15 11:20:09
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 11:20:09] === Inicio del proceso ===
+[2025-07-15 11:20:09] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 11:20:09] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 12d51f6] Actualización: 2025-07-15 11:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 11:40:08] === Inicio del proceso ===
+[2025-07-15 11:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 11:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 12:00:07] === Inicio del proceso ===
+[2025-07-15 12:00:07] El archivo no tiene cambios reales. Saliendo.
+[main 5b38f73] Actualización: 2025-07-15 12:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 12:20:08] === Inicio del proceso ===
+[2025-07-15 12:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 12:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 92e08e8] Actualización: 2025-07-15 12:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 12:40:07] === Inicio del proceso ===
+[2025-07-15 12:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 12:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 13:00:40] === Inicio del proceso ===
+[2025-07-15 13:00:40] El archivo no tiene cambios reales. Saliendo.
+[main 432903b] Actualización: 2025-07-15 13:20:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 13:20:07] === Inicio del proceso ===
+[2025-07-15 13:20:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 13:20:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 96c462c] Actualización: 2025-07-15 13:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 13:40:07] === Inicio del proceso ===
+[2025-07-15 13:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 13:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 14:00:58] === Inicio del proceso ===
+[2025-07-15 14:00:58] El archivo no tiene cambios reales. Saliendo.
+[main 392b7bb] Actualización: 2025-07-15 14:20:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 14:20:08] === Inicio del proceso ===
+[2025-07-15 14:20:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 14:20:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main e102fda] Actualización: 2025-07-15 14:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 14:40:07] === Inicio del proceso ===
+[2025-07-15 14:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 14:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 15:00:05] === Inicio del proceso ===
+[2025-07-15 15:00:05] El archivo no tiene cambios reales. Saliendo.
+[main 52539ce] Actualización: 2025-07-15 15:20:27
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 15:20:26] === Inicio del proceso ===
+[2025-07-15 15:20:26] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 15:20:27] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main 1b9068f] Actualización: 2025-07-15 15:40:08
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 15:40:08] === Inicio del proceso ===
+[2025-07-15 15:40:08] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 15:40:08] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 16:00:05] === Inicio del proceso ===
+[2025-07-15 16:00:05] El archivo no tiene cambios reales. Saliendo.
+[main ecf1182] Actualización: 2025-07-15 16:20:29
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 16:20:29] === Inicio del proceso ===
+[2025-07-15 16:20:29] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 16:20:30] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[main cbd14d4] Actualización: 2025-07-15 16:40:07
+ 1 file changed, 1 insertion(+)
+error: no se puede pull con rebase: Tienes cambios sin marcar.
+error: por favor realiza un commit o un stash con ellos.
+[2025-07-15 16:40:07] === Inicio del proceso ===
+[2025-07-15 16:40:07] Archivo copiado: /home/mdeoca/TEMPE/bme688/bme68x_log.csv -> /home/mdeoca/TEMPE/bme688/Meteo/datos.csv
+[2025-07-15 16:40:07] ERROR: Command '['git', 'pull', '--rebase']' returned non-zero exit status 128.
+[2025-07-15 17:00:41] === Inicio del proceso ===
+[2025-07-15 17:00:41] El archivo no tiene cambios reales. Saliendo.
