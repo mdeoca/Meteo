@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // La ruta a tu archivo 'datos.csv' es la carpeta superior, confirmado por ti.
-    const csvFilePath = '../datos.csv';
+    const csvFilePath = 'datos.csv';
 
     const textColor = 'rgba(224, 224, 224, 0.9)';
     const gridColor = 'rgba(128, 128, 128, 0.3)';
