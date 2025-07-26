@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // La ruta a tu archivo 'datos.csv' es la carpeta superior, confirmado por ti.
     const csvFilePath = 'datos.csv';
 
     const textColor = 'rgba(224, 224, 224, 0.9)';
@@ -12,10 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const gas76Color = 'rgb(255, 205, 86)';
     const gas77Color = 'rgb(75, 0, 130)';
 
-    // **Estas dos líneas son CRUCIALES para que los plugins funcionen**
     // Asegúrate de que los scripts de estos plugins estén cargados en index.html ANTES de script.js
+    // E.g., <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    // Si usas una versión diferente, ajusta el CDN en tu HTML
     Chart.register(ChartZoom);
-    Chart.register(ChartDataLabels);
+    Chart.register(ChartDataLabels); // Correcto, asumiendo que el script de este plugin está en el HTML
 
     const charts = []; // Array para almacenar las instancias de los gráficos
 
@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log("CSV Data fetched successfully. First 200 chars:", csvData.substring(0, 200) + "...");
 
             const lines = csvData.trim().split('\n');
-            const data = lines.slice(1).map(line => line.split(',').map(cell => cell.trim()));
+            // Filtrar líneas vacías o de solo espacios antes de procesar
+            const data = lines.slice(1).filter(line => line.trim() !== '').map(line => line.split(',').map(cell => cell.trim()));
 
             if (data.length === 0 || data.every(row => row.length === 0 || row.every(cell => cell === ''))) {
                 console.error("CSV parsing resulted in no data rows after removing header or all rows are empty. Check CSV format.");
@@ -40,10 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             const labels = data.map(row => {
-                // Asegúrate de que las filas tengan suficientes elementos antes de acceder a ellos
                 if (!row || row.length < 2) {
                     console.warn("Fila de CSV incompleta o vacía, saltando:", row);
-                    return 'N/A'; // O un valor adecuado para filas inválidas
+                    return 'N/A';
                 }
                 const dateParts = row[0].split('-');
                 const year = dateParts[0].substring(2);
@@ -71,18 +71,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     maintainAspectRatio: false,
                     layout: {
                         padding: {
-                            top: 1, // **Aumentado a 60px para dar más espacio arriba**
+                            top: 60, // **Aumentado el padding superior para las etiquetas**
                             bottom: 1,
                             left: 10,
-                            right: 1 // **Aumentado a 50px para dar más espacio a la derecha y que las etiquetas no se corten**
+                            right: 50 // **Aumentado el padding derecho para que las etiquetas no se corten**
                         }
                     },
                     plugins: {
                         legend: {
-                            position: 'chartArea',
+                            position: 'chartArea', // 'chartArea' centra la leyenda dentro del área de dibujo del gráfico
                             labels: {
                                 color: textColor,
-                                padding: 5 // **Reducido el padding de la leyenda a 5px para acercarla al título**
+                                padding: 5
                             }
                         },
                         zoom: {
@@ -97,34 +97,37 @@ document.addEventListener('DOMContentLoaded', function() {
                                 pinch: {
                                     enabled: true
                                 },
-                                drag: { 
+                                drag: {
                                     enabled: false,
                                 },
                                 mode: 'xy',
                             }
                         },
                         datalabels: {
+                            // **SOLUCIÓN: Mostrar solo el último dato absoluto del dataset**
                             display: function(context) {
-                                return context.dataIndex === context.dataset.data.length - 90;
+                                // `context.dataset.data.length - 1` es el índice del último elemento.
+                                // Solo se mostrará la etiqueta si el dataIndex actual es el último.
+                                return context.dataIndex === (context.dataset.data.length - 1);
                             },
-                            // **CRÍTICO: Combinación de align y offset para forzar separación y elevar**
+                            // **Ajustes para posicionar las etiquetas del último dato**
                             align: function(context) {
-                                // Para el primer dataset (Sensor 76), la etiqueta irá hacia arriba.
-                                // Para el segundo dataset (Sensor 77), la etiqueta irá hacia abajo.
-                                return context.datasetIndex === 0 ? 'end' : 'start';
+                                // Posiciona el primer dataset (Sensor 76) arriba y el segundo (Sensor 77) abajo.
+                                // Esto es para evitar superposición.
+                                return context.datasetIndex === 0 ? 'end' : 'start'; // 'end' significa arriba, 'start' significa abajo
                             },
-                            anchor: 'end', // Ancla la etiqueta en el extremo del punto (arriba)
+                            anchor: 'end', // Ancla la etiqueta al final del punto de datos
 
                             offset: function(context) {
+                                // Ajusta la distancia desde el punto de dato.
+                                // Valores negativos para 'end' (arriba), positivos para 'start' (abajo)
                                 if (context.datasetIndex === 0) { // Primer dataset (e.g., Sensor 76)
-                                    return -60; // **Mover 20px hacia arriba desde el punto**
+                                    return -20; // Mover 20px hacia arriba desde el punto
                                 } else { // Segundo dataset (e.g., Sensor 77)
-                                    return 60; // **Mover 20px hacia abajo desde el punto**
+                                    return 20; // Mover 20px hacia abajo desde el punto
                                 }
                             },
-
-                            clamp: false,   // Asegura que la etiqueta no se salga del área del gráfico
-
+                            clamp: false, // Permite que la etiqueta se dibuje fuera del área de dibujo
                             formatter: function(value, context) {
                                 return parseFloat(value).toFixed(2);
                             },
@@ -133,17 +136,17 @@ document.addEventListener('DOMContentLoaded', function() {
                                 weight: 'bold',
                                 size: 12
                             },
-                            padding: { 
-                                top: 1,
-                                bottom: 1,
-                                left: 3,
-                                right: 5
+                            padding: {
+                                top: 4,
+                                bottom: 4,
+                                left: 6,
+                                right: 6
                             },
                             borderRadius: 4,
                             backgroundColor: function(context) {
                                 return context.dataset.borderColor;
                             },
-                            clip: true // Permite que la etiqueta se dibuje fuera del área de datos si es necesario
+                            clip: false // Permite que la etiqueta se dibuje fuera del área de datos si es necesario (ya cubierto por clamp)
                         }
                     },
                     scales: {
@@ -174,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             ticks: {
                                 color: tickColor
                             },
-                            beginAtZero: false 
+                            beginAtZero: false
                         }
                     }
                 };
@@ -182,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Función para alternar pantalla completa
             function toggleFullscreen(chart, canvasElement) {
-                const wrapperElement = canvasElement.closest('.chart-container'); // Buscar el contenedor padre
+                const wrapperElement = canvasElement.closest('.chart-container');
 
                 if (chart._isFullscreen) {
                     wrapperElement.classList.remove('chart-fullscreen-active');
@@ -194,12 +197,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     console.log('Entrando a pantalla completa para:', chart.id);
                 }
 
-                // Pequeño retardo para asegurar que el DOM se actualice antes de redimensionar
                 setTimeout(() => {
-                    if (chart) chart.resize(); 
+                    if (chart) chart.resize();
                 }, 50);
             }
-
 
             // --- Helper para crear y configurar gráficos ---
             function createChart(canvasId, dataset1, dataset2, yAxisTitle, label1, label2, color1, color2) {
@@ -209,7 +210,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     return null;
                 }
 
-                // Destruir el gráfico existente si lo hay para evitar duplicados en recargas
                 const existingChart = Chart.getChart(canvasId);
                 if (existingChart) {
                     existingChart.destroy();
@@ -220,25 +220,28 @@ document.addEventListener('DOMContentLoaded', function() {
                     data: {
                         labels: labels,
                         datasets: [
-                            { 
-                                label: label1, 
-                                data: dataset1, 
-                                borderColor: color1, 
-                                backgroundColor: color1.replace('rgb', 'rgba').replace(')', ', 0.2)'), 
-                                tension: 0.3, 
+                            {
+                                label: label1,
+                                data: dataset1,
+                                borderColor: color1,
+                                backgroundColor: color1.replace('rgb', 'rgba').replace(')', ', 0.2)'),
+                                tension: 0.3,
                                 fill: false,
-                                borderWidth: 1, 
-                                pointRadius: 0 
+                                borderWidth: 1,
+                                pointRadius: 0,
+                                // **IMPORTANTE: Asegúrate de que NO haya un 'datalabels' aquí**
+                                // datalabels: { display: true }  <-- ¡Esto causaría el problema!
                             },
-                            { 
-                                label: label2, 
-                                data: dataset2, 
-                                borderColor: color2, 
-                                backgroundColor: color2.replace('rgb', 'rgba').replace(')', ', 0.2)'), 
-                                tension: 0.3, 
+                            {
+                                label: label2,
+                                data: dataset2,
+                                borderColor: color2,
+                                backgroundColor: color2.replace('rgb', 'rgba').replace(')', ', 0.2)'),
+                                tension: 0.3,
                                 fill: false,
-                                borderWidth: 1, 
-                                pointRadius: 0 
+                                borderWidth: 1,
+                                pointRadius: 0,
+                                // **IMPORTANTE: Asegúrate de que NO haya un 'datalabels' aquí**
                             }
                         ]
                     },
@@ -246,16 +249,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
                 chartInstance._isFullscreen = false;
 
-                // Evento doble clic para resetear el zoom
                 canvasElement.addEventListener('dblclick', function() {
                     console.log(`Doble clic detectado en ${canvasId}! Restableciendo zoom.`);
                     if (chartInstance) chartInstance.resetZoom();
                 });
 
-                // Evento clic central (rueda) para pantalla completa
                 canvasElement.addEventListener('mousedown', function(event) {
-                    if (event.button === 1) { // 1 es el botón central (rueda)
-                        event.preventDefault(); // Evita el desplazamiento con el botón central
+                    if (event.button === 1) {
+                        event.preventDefault();
                         toggleFullscreen(chartInstance, canvasElement);
                     }
                 });
