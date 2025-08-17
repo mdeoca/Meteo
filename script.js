@@ -71,10 +71,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     maintainAspectRatio: false,
                     layout: {
                         padding: {
-                            top: 60, // **Aumentado el padding superior para las etiquetas**
+                            top: 1, // **Aumentado el padding superior para las etiquetas**  Era 60
                             bottom: 1,
                             left: 10,
-                            right: 50 // **Aumentado el padding derecho para que las etiquetas no se corten**
+                            right: 70 // **Aumentado el padding derecho para que las etiquetas no se corten** Era 50
                         }
                     },
                     plugins: {
@@ -122,9 +122,9 @@ document.addEventListener('DOMContentLoaded', function() {
                                 // Ajusta la distancia desde el punto de dato.
                                 // Valores negativos para 'end' (arriba), positivos para 'start' (abajo)
                                 if (context.datasetIndex === 0) { // Primer dataset (e.g., Sensor 76)
-                                    return -20; // Mover 20px hacia arriba desde el punto
+                                    return -100; // Mover 20px hacia arriba desde el punto  Esta corregido a 100
                                 } else { // Segundo dataset (e.g., Sensor 77)
-                                    return 20; // Mover 20px hacia abajo desde el punto
+                                    return 100; // Mover 20px hacia abajo desde el punto
                                 }
                             },
                             clamp: false, // Permite que la etiqueta se dibuje fuera del área de dibujo
